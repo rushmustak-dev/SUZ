@@ -1,0 +1,26 @@
+# Запуск всех задач
+flask tasks run-all
+
+# Только архивация
+flask tasks archive
+
+# Принудительная архивация всех завершенных заказов
+flask tasks archive --force
+
+# Проверка просроченных заказов
+flask tasks check-overdue
+
+# Очистка уведомлений
+flask tasks cleanup-notifications --days 30
+
+# Отправка статистики
+flask tasks stats
+
+# Список запланированных задач
+flask tasks list-jobs
+
+# Ручная архивация заказов (старая команда)
+flask archive-orders --days 7
+
+# Восстановление из архива
+flask restore-from-archive "2024-01-001" --reason "Рекламация"

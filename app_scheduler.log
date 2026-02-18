@@ -1,0 +1,925 @@
+[2026-02-18 06:50:23] INFO in __init__:236 - ✅ Логирование настроено профессионально
+[2026-02-18 06:50:23] INFO in __init__:237 - 📁 Основной лог: app_scheduler.log
+[2026-02-18 06:50:23] INFO in __init__:238 - 📁 Access лог: access.log
+[2026-02-18 06:50:23] INFO in __init__:239 - 📁 Ошибки: error.log
+[2026-02-18 06:50:23] INFO in __init__:240 - 🔧 Werkzeug уровень: INFO
+[2026-02-18 06:50:23] INFO in __init__:256 - ✅ Расширения Flask инициализированы
+[2026-02-18 06:50:23] INFO in __init__:272 - ✅ Blueprint'ы зарегистрированы
+[2026-02-18 06:50:23] INFO in __init__:319 - ✅ Таблицы базы данных созданы/проверены
+[2026-02-18 06:50:23] INFO in __init__:351 - ✅ Директории загрузок созданы: C:\Users\5\Desktop\production_system_v3_3\app\..\uploads
+[2026-02-18 06:50:24] INFO in __init__:362 - ✅ Проверка/создание администратора выполнена
+[2026-02-18 06:50:24] INFO in __init__:373 - ✅ Настройки уведомлений инициализированы
+[2026-02-18 06:50:24] INFO in __init__:514 - 📅 Запланировано 7 задач
+[2026-02-18 06:50:24] INFO in __init__:408 - ✅ Планировщик задач запущен
+[2026-02-18 06:50:24] INFO in __init__:532 - 📅 Запланировано 7 задач:
+[2026-02-18 06:50:24] INFO in __init__:538 -   • Проверка сроков готовности чертежей
+[2026-02-18 06:50:24] INFO in __init__:539 -     ID: check_design_dates_job, Следующий запуск: 18.02.2026 10:00
+[2026-02-18 06:50:24] INFO in __init__:538 -   • Проверка новых файлов спецификаций
+[2026-02-18 06:50:24] INFO in __init__:539 -     ID: check_specifications_job, Следующий запуск: 18.02.2026 10:00
+[2026-02-18 06:50:24] INFO in __init__:538 -   • Отправка ежедневной статистики
+[2026-02-18 06:50:24] INFO in __init__:539 -     ID: daily_statistics_job, Следующий запуск: 18.02.2026 18:00
+[2026-02-18 06:50:24] INFO in __init__:538 -   • Автоматическая архивация завершенных заказов
+[2026-02-18 06:50:24] INFO in __init__:539 -     ID: auto_archive_job, Следующий запуск: 19.02.2026 02:00
+[2026-02-18 06:50:24] INFO in __init__:538 -   • Проверка просроченных заказов
+[2026-02-18 06:50:24] INFO in __init__:539 -     ID: check_overdue_job, Следующий запуск: 19.02.2026 09:00
+[2026-02-18 06:50:24] INFO in __init__:538 -   • Очистка старых уведомлений
+[2026-02-18 06:50:24] INFO in __init__:539 -     ID: cleanup_notifications_job, Следующий запуск: 22.02.2026 03:00
+[2026-02-18 06:50:24] INFO in __init__:538 -   • Очистка старых заявок поставщикам
+[2026-02-18 06:50:24] INFO in __init__:539 -     ID: cleanup_supplier_requests_job, Следующий запуск: 22.02.2026 04:00
+[2026-02-18 06:50:24] INFO in __init__:333 - ✅ Приложение успешно инициализировано
+[2026-02-18 06:50:24] INFO in __init__:72 - Модуль договоров успешно зарегистрирован
+[2026-02-18 06:50:24] INFO in __init__:82 - ✅ Модуль парсера поставщиков успешно зарегистрирован
+[2026-02-18 07:00:00] INFO in order_tasks:45 - 📐 Запуск check_design_ready_dates
+[2026-02-18 07:00:00] INFO in supplier_parser_tasks:61 - Запуск периодической проверки файлов спецификаций
+[2026-02-18 07:00:00] INFO in supplier_parser_tasks:74 - Найдено 2 файлов для проверки
+[2026-02-18 07:00:00] INFO in notification_service:265 - Создано уведомление ID 92: system для пользователя Александра Шилова
+[2026-02-18 07:00:00] INFO in notification_service:384 - Email отправлен shilova.alexandra1999@gmail.com
+[2026-02-18 07:00:00] INFO in supplier_parser_tasks:99 - Обработка заказа 08-26Е-26-02-002
+[2026-02-18 07:00:00] INFO in supplier_parser_integration:35 - === НАЧАЛО process_order_files для заказа 23 ===
+[2026-02-18 07:00:00] INFO in supplier_parser_integration:36 - Поиск Excel-файлов в заказе...
+[2026-02-18 07:00:00] INFO in supplier_parser_integration:45 - Начинаем обработку файлов для заказа 08-26Е-26-02-002
+[2026-02-18 07:00:00] INFO in supplier_parser_integration:67 - Нет Excel-файлов для обработки в заказе 08-26Е-26-02-002
+[2026-02-18 07:00:00] INFO in supplier_parser_tasks:99 - Обработка заказа 09-26Е-26-02-002
+[2026-02-18 07:00:00] INFO in supplier_parser_integration:35 - === НАЧАЛО process_order_files для заказа 24 ===
+[2026-02-18 07:00:00] INFO in supplier_parser_integration:36 - Поиск Excel-файлов в заказе...
+[2026-02-18 07:00:00] INFO in supplier_parser_integration:45 - Начинаем обработку файлов для заказа 09-26Е-26-02-002
+[2026-02-18 07:00:00] INFO in supplier_parser_integration:67 - Нет Excel-файлов для обработки в заказе 09-26Е-26-02-002
+[2026-02-18 07:00:00] INFO in supplier_parser_tasks:106 - Обработано заказов: 2
+[2026-02-18 07:00:00] INFO in __init__:522 - ✅ process_pending_specifications: 2
+[2026-02-18 07:00:00] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:00:00] INFO in order_tasks:72 - ✅ Скоро срок чертежей: 1
+[2026-02-18 07:00:00] INFO in __init__:522 - ✅ check_design_ready_dates: Ближайших сроков: 1
+[2026-02-18 07:00:00] INFO in notification_service:175 - ✅ Email успешно отправлен на shilova.alexandra1999@gmail.com: [Система] ⏰ Срок чертежей: 2026-02-001-06А(1)
+[2026-02-18 07:00:00] INFO in notification_service:175 - ✅ Email успешно отправлен на shilova.alexandra1999@gmail.com: [Система] ⏰ Срок чертежей: 2026-02-001-06А(1)
+[2026-02-18 07:00:36] INFO in __init__:547 - 🛑 Планировщик задач остановлен
+[2026-02-18 07:00:47] INFO in __init__:236 - ✅ Логирование настроено профессионально
+[2026-02-18 07:00:47] INFO in __init__:237 - 📁 Основной лог: app_scheduler.log
+[2026-02-18 07:00:47] INFO in __init__:238 - 📁 Access лог: access.log
+[2026-02-18 07:00:47] INFO in __init__:239 - 📁 Ошибки: error.log
+[2026-02-18 07:00:47] INFO in __init__:240 - 🔧 Werkzeug уровень: INFO
+[2026-02-18 07:00:47] INFO in __init__:256 - ✅ Расширения Flask инициализированы
+[2026-02-18 07:00:47] INFO in __init__:272 - ✅ Blueprint'ы зарегистрированы
+[2026-02-18 07:00:47] INFO in __init__:319 - ✅ Таблицы базы данных созданы/проверены
+[2026-02-18 07:00:47] INFO in __init__:351 - ✅ Директории загрузок созданы: C:\Users\5\Desktop\production_system_v3_3\app\..\uploads
+[2026-02-18 07:00:47] INFO in __init__:362 - ✅ Проверка/создание администратора выполнена
+[2026-02-18 07:00:47] ERROR in __init__:375 - ❌ Ошибка инициализации настроек уведомлений: No module named 'app.services.notification_settings_service'
+[2026-02-18 07:00:48] INFO in __init__:514 - 📅 Запланировано 7 задач
+[2026-02-18 07:00:48] INFO in __init__:408 - ✅ Планировщик задач запущен
+[2026-02-18 07:00:48] INFO in __init__:532 - 📅 Запланировано 7 задач:
+[2026-02-18 07:00:48] INFO in __init__:538 -   • Проверка новых файлов спецификаций
+[2026-02-18 07:00:48] INFO in __init__:539 -     ID: check_specifications_job, Следующий запуск: 18.02.2026 10:30
+[2026-02-18 07:00:48] INFO in __init__:538 -   • Отправка ежедневной статистики
+[2026-02-18 07:00:48] INFO in __init__:539 -     ID: daily_statistics_job, Следующий запуск: 18.02.2026 18:00
+[2026-02-18 07:00:48] INFO in __init__:538 -   • Автоматическая архивация завершенных заказов
+[2026-02-18 07:00:48] INFO in __init__:539 -     ID: auto_archive_job, Следующий запуск: 19.02.2026 02:00
+[2026-02-18 07:00:48] INFO in __init__:538 -   • Проверка просроченных заказов
+[2026-02-18 07:00:48] INFO in __init__:539 -     ID: check_overdue_job, Следующий запуск: 19.02.2026 09:00
+[2026-02-18 07:00:48] INFO in __init__:538 -   • Проверка сроков готовности чертежей
+[2026-02-18 07:00:48] INFO in __init__:539 -     ID: check_design_dates_job, Следующий запуск: 19.02.2026 10:00
+[2026-02-18 07:00:48] INFO in __init__:538 -   • Очистка старых уведомлений
+[2026-02-18 07:00:48] INFO in __init__:539 -     ID: cleanup_notifications_job, Следующий запуск: 22.02.2026 03:00
+[2026-02-18 07:00:48] INFO in __init__:538 -   • Очистка старых заявок поставщикам
+[2026-02-18 07:00:48] INFO in __init__:539 -     ID: cleanup_supplier_requests_job, Следующий запуск: 22.02.2026 04:00
+[2026-02-18 07:00:48] INFO in __init__:333 - ✅ Приложение успешно инициализировано
+[2026-02-18 07:00:48] INFO in __init__:72 - Модуль договоров успешно зарегистрирован
+[2026-02-18 07:00:48] INFO in __init__:82 - ✅ Модуль парсера поставщиков успешно зарегистрирован
+[2026-02-18 07:01:58] INFO in order_service:1010 - get_orders_for_user: user=1, status_filter=all, search=''
+[2026-02-18 07:01:58] INFO in order_service:1054 - Фильтр: администратор (без фильтрации)
+[2026-02-18 07:01:58] INFO in order_service:1078 - Найдено заказов: 6
+[2026-02-18 07:18:04] INFO in order_service:1143 - === РАСЧЕТ СТАТИСТИКИ для пользователя 1 (admin) ===
+[2026-02-18 07:18:04] INFO in order_service:1200 - Фильтр: администратор (без фильтрации)
+[2026-02-18 07:18:04] INFO in order_service:1211 - Найдено заказов: 6
+[2026-02-18 07:18:04] INFO in order_service:1310 - Статистика рассчитана: {'total': 6, 'new': 0, 'in_progress': 6, 'completed': 0, 'delivered': 0, 'reclamations': 0, 'overdue': 0, 'this_week': 5, 'this_month': 6, 'archived': 0}
+[2026-02-18 07:18:36] INFO in __init__:547 - 🛑 Планировщик задач остановлен
+[2026-02-18 07:18:45] INFO in __init__:236 - ✅ Логирование настроено профессионально
+[2026-02-18 07:18:45] INFO in __init__:237 - 📁 Основной лог: app_scheduler.log
+[2026-02-18 07:18:45] INFO in __init__:238 - 📁 Access лог: access.log
+[2026-02-18 07:18:45] INFO in __init__:239 - 📁 Ошибки: error.log
+[2026-02-18 07:18:45] INFO in __init__:240 - 🔧 Werkzeug уровень: INFO
+[2026-02-18 07:18:45] INFO in __init__:256 - ✅ Расширения Flask инициализированы
+[2026-02-18 07:18:45] INFO in __init__:272 - ✅ Blueprint'ы зарегистрированы
+[2026-02-18 07:18:45] INFO in __init__:319 - ✅ Таблицы базы данных созданы/проверены
+[2026-02-18 07:18:45] INFO in __init__:351 - ✅ Директории загрузок созданы: C:\Users\5\Desktop\production_system_v3_3\app\..\uploads
+[2026-02-18 07:18:45] INFO in __init__:362 - ✅ Проверка/создание администратора выполнена
+[2026-02-18 07:18:45] ERROR in __init__:375 - ❌ Ошибка инициализации настроек уведомлений: No module named 'app.services.notification_settings_service'
+[2026-02-18 07:18:46] INFO in __init__:514 - 📅 Запланировано 7 задач
+[2026-02-18 07:18:46] INFO in __init__:408 - ✅ Планировщик задач запущен
+[2026-02-18 07:18:46] INFO in __init__:532 - 📅 Запланировано 7 задач:
+[2026-02-18 07:18:46] INFO in __init__:538 -   • Проверка новых файлов спецификаций
+[2026-02-18 07:18:46] INFO in __init__:539 -     ID: check_specifications_job, Следующий запуск: 18.02.2026 10:30
+[2026-02-18 07:18:46] INFO in __init__:538 -   • Отправка ежедневной статистики
+[2026-02-18 07:18:46] INFO in __init__:539 -     ID: daily_statistics_job, Следующий запуск: 18.02.2026 18:00
+[2026-02-18 07:18:46] INFO in __init__:538 -   • Автоматическая архивация завершенных заказов
+[2026-02-18 07:18:46] INFO in __init__:539 -     ID: auto_archive_job, Следующий запуск: 19.02.2026 02:00
+[2026-02-18 07:18:46] INFO in __init__:538 -   • Проверка просроченных заказов
+[2026-02-18 07:18:46] INFO in __init__:539 -     ID: check_overdue_job, Следующий запуск: 19.02.2026 09:00
+[2026-02-18 07:18:46] INFO in __init__:538 -   • Проверка сроков готовности чертежей
+[2026-02-18 07:18:46] INFO in __init__:539 -     ID: check_design_dates_job, Следующий запуск: 19.02.2026 10:00
+[2026-02-18 07:18:46] INFO in __init__:538 -   • Очистка старых уведомлений
+[2026-02-18 07:18:46] INFO in __init__:539 -     ID: cleanup_notifications_job, Следующий запуск: 22.02.2026 03:00
+[2026-02-18 07:18:46] INFO in __init__:538 -   • Очистка старых заявок поставщикам
+[2026-02-18 07:18:46] INFO in __init__:539 -     ID: cleanup_supplier_requests_job, Следующий запуск: 22.02.2026 04:00
+[2026-02-18 07:18:46] INFO in __init__:333 - ✅ Приложение успешно инициализировано
+[2026-02-18 07:18:46] INFO in __init__:72 - Модуль договоров успешно зарегистрирован
+[2026-02-18 07:18:46] INFO in __init__:82 - ✅ Модуль парсера поставщиков успешно зарегистрирован
+[2026-02-18 07:20:05] ERROR in app:825 - Exception on /admin/system/logs [GET]
+Traceback (most recent call last):
+  File "C:\Users\5\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask_login\utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\Desktop\production_system_v3_3\app\permissions.py", line 166, in decorated_function
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\Desktop\production_system_v3_3\app\admin.py", line 415, in system_logs
+    return render_template('admin/logs.html', logs=reversed(logs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\templating.py", line 152, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\templating.py", line 133, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\AppData\Local\Programs\Python\Python312\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+  File "C:\Users\5\AppData\Local\Programs\Python\Python312\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\5\Desktop\production_system_v3_3\app\templates\admin\logs.html", line 2, in top-level template code
+    {% extends "base.html" %}
+  File "C:\Users\5\Desktop\production_system_v3_3\app\templates\base.html", line 809, in top-level template code
+    {% block content %}{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\Desktop\production_system_v3_3\app\templates\admin\logs.html", line 289, in block 'content'
+    <i class="bi bi-list me-1"></i>Записей: {{ logs|length }}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: object of type 'list_reverseiterator' has no len()
+[2026-02-18 07:20:43] INFO in order_service:1143 - === РАСЧЕТ СТАТИСТИКИ для пользователя 1 (admin) ===
+[2026-02-18 07:20:43] INFO in order_service:1200 - Фильтр: администратор (без фильтрации)
+[2026-02-18 07:20:43] INFO in order_service:1211 - Найдено заказов: 6
+[2026-02-18 07:20:43] INFO in order_service:1310 - Статистика рассчитана: {'total': 6, 'new': 0, 'in_progress': 6, 'completed': 0, 'delivered': 0, 'reclamations': 0, 'overdue': 0, 'this_week': 5, 'this_month': 6, 'archived': 0}
+[2026-02-18 07:20:58] INFO in order_service:1143 - === РАСЧЕТ СТАТИСТИКИ для пользователя 1 (admin) ===
+[2026-02-18 07:20:58] INFO in order_service:1200 - Фильтр: администратор (без фильтрации)
+[2026-02-18 07:20:58] INFO in order_service:1211 - Найдено заказов: 6
+[2026-02-18 07:20:58] INFO in order_service:1310 - Статистика рассчитана: {'total': 6, 'new': 0, 'in_progress': 6, 'completed': 0, 'delivered': 0, 'reclamations': 0, 'overdue': 0, 'this_week': 5, 'this_month': 6, 'archived': 0}
+[2026-02-18 07:22:14] INFO in order_service:1143 - === РАСЧЕТ СТАТИСТИКИ для пользователя 1 (admin) ===
+[2026-02-18 07:22:14] INFO in order_service:1200 - Фильтр: администратор (без фильтрации)
+[2026-02-18 07:22:14] INFO in order_service:1211 - Найдено заказов: 6
+[2026-02-18 07:22:14] INFO in order_service:1310 - Статистика рассчитана: {'total': 6, 'new': 0, 'in_progress': 6, 'completed': 0, 'delivered': 0, 'reclamations': 0, 'overdue': 0, 'this_week': 5, 'this_month': 6, 'archived': 0}
+[2026-02-18 07:22:40] INFO in order_service:1010 - get_orders_for_user: user=1, status_filter=all, search=''
+[2026-02-18 07:22:40] INFO in order_service:1054 - Фильтр: администратор (без фильтрации)
+[2026-02-18 07:22:40] INFO in order_service:1078 - Найдено заказов: 6
+[2026-02-18 07:26:31] INFO in order_service:243 - === СОЗДАНИЕ ЗАКАЗА пользователем 1 (admin) ===
+[2026-02-18 07:26:31] INFO in order_service:244 - order_data: {'customer_name': 'Косичкина Мария Ильинична', 'customer_phone': '+7 (123) 456-78-90', 'customer_email': 'test@test.te', 'product_name': 'ТЕСТ Кухня', 'amount': 1010.0, 'furniture_amount': 1000.0, 'other_costs': 5.0, 'measurement_cost': 5.0, 'deadline_date': '2026-10-18', 'installation_date': '2026-12-31', 'installation_address': 'Задрищенск', 'notes': 'НЕ ТРОГАТЬ!!! Тестовый заказ для тёти Маши из Задрищенска!!!', 'salon_manager_id': 14, 'prepayment_amount': 500.0, 'prepayment_method': 'sbp', 'prepayment_date': '2026-02-23', 'client_id': 3, 'order_code': 'для Маши'}
+[2026-02-18 07:26:31] INFO in order_service:255 - После преобразования: amount=1010.0, furniture=1000.0, measurement=5.0, other=5.0, prepayment=500.0
+[2026-02-18 07:26:31] INFO in order_service:157 - Генерация номера заказа для 26-02
+[2026-02-18 07:26:31] INFO in order_service:172 - Последний номер: 1, новый: 2
+[2026-02-18 07:26:31] INFO in order_service:182 - Сгенерирован номер заказа: 26-02-002
+[2026-02-18 07:26:31] INFO in order_service:267 - Номер заказа: для Маши-26-02-002
+[2026-02-18 07:26:31] INFO in order_service:270 - salon_manager_id из данных: 14
+[2026-02-18 07:26:31] INFO in order_service:318 - Создание объекта Order
+[2026-02-18 07:26:31] INFO in order_service:349 - Order добавлен в сессию, id=25
+[2026-02-18 07:26:31] INFO in order_service:353 - Проверка конфликтов расписания для заказа 25
+[2026-02-18 07:26:31] WARNING in order_service:356 - Конфликты при создании заказа для Маши-26-02-002: [{'type': 'deadline_conflict', 'title': 'Монтаж после дедлайна', 'message': 'Дата монтажа (31.12.2026) позже общего срока выполнения (18.10.2026)', 'severity': 'warning', 'action_required': True, 'suggested_action': 'Скорректировать сроки выполнения заказа'}]
+[2026-02-18 07:26:31] INFO in order_service:372 - История статуса добавлена
+[2026-02-18 07:26:31] INFO in notification_service:265 - Создано уведомление ID 93: order_created для пользователя admin
+[2026-02-18 07:26:31] INFO in notification_service:384 - Email отправлен admin@example.com
+[2026-02-18 07:26:31] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:26:31] INFO in notification_service:498 - ✅ Уведомление создано для user_id=1
+[2026-02-18 07:26:31] INFO in notification_service:265 - Создано уведомление ID 94: order_created для пользователя Рушан Мустакимов
+[2026-02-18 07:26:31] INFO in notification_service:384 - Email отправлен rushan.ufa@gmail.com
+[2026-02-18 07:26:31] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:26:31] INFO in notification_service:498 - ✅ Уведомление создано для user_id=6
+[2026-02-18 07:26:31] INFO in notification_service:265 - Создано уведомление ID 95: order_created для пользователя Рушан
+[2026-02-18 07:26:31] INFO in notification_service:384 - Email отправлен mrush@mail.ru
+[2026-02-18 07:26:31] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:26:31] INFO in notification_service:498 - ✅ Уведомление создано для user_id=10
+[2026-02-18 07:26:31] INFO in notification_service:265 - Создано уведомление ID 96: order_created для пользователя Алишер
+[2026-02-18 07:26:31] INFO in notification_service:384 - Email отправлен reservpochta710@mail.ru
+[2026-02-18 07:26:31] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:26:31] INFO in notification_service:498 - ✅ Уведомление создано для user_id=12
+[2026-02-18 07:26:31] INFO in notification_service:265 - Создано уведомление ID 97: order_created для пользователя Офис
+[2026-02-18 07:26:31] INFO in notification_service:384 - Email отправлен oficce_team_fs@fsteam.ru
+[2026-02-18 07:26:31] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:26:31] INFO in notification_service:498 - ✅ Уведомление создано для user_id=14
+[2026-02-18 07:26:31] INFO in notification_service:500 - Создано 5 уведомлений о новом заказе для Маши-26-02-002
+[2026-02-18 07:26:32] INFO in notification_service:175 - ✅ Email успешно отправлен на admin@example.com: [Система] Новый заказ: для Маши-26-02-002
+[2026-02-18 07:26:32] INFO in notification_service:175 - ✅ Email успешно отправлен на admin@example.com: [Система] Новый заказ: для Маши-26-02-002
+[2026-02-18 07:26:32] INFO in notification_service:175 - ✅ Email успешно отправлен на rushan.ufa@gmail.com: [Система] Новый заказ: для Маши-26-02-002
+[2026-02-18 07:26:32] INFO in notification_service:175 - ✅ Email успешно отправлен на rushan.ufa@gmail.com: [Система] Новый заказ: для Маши-26-02-002
+[2026-02-18 07:26:32] INFO in notification_service:175 - ✅ Email успешно отправлен на mrush@mail.ru: [Система] Новый заказ: для Маши-26-02-002
+[2026-02-18 07:26:32] INFO in notification_service:175 - ✅ Email успешно отправлен на mrush@mail.ru: [Система] Новый заказ: для Маши-26-02-002
+[2026-02-18 07:26:32] INFO in notification_service:175 - ✅ Email успешно отправлен на reservpochta710@mail.ru: [Система] Новый заказ: для Маши-26-02-002
+[2026-02-18 07:26:32] INFO in notification_service:175 - ✅ Email успешно отправлен на reservpochta710@mail.ru: [Система] Новый заказ: для Маши-26-02-002
+[2026-02-18 07:26:32] INFO in notification_service:175 - ✅ Email успешно отправлен на oficce_team_fs@fsteam.ru: [Система] Новый заказ: для Маши-26-02-002
+[2026-02-18 07:26:32] INFO in notification_service:175 - ✅ Email успешно отправлен на oficce_team_fs@fsteam.ru: [Система] Новый заказ: для Маши-26-02-002
+[2026-02-18 07:26:32] INFO in telegram_service:104 - Telegram сообщение отправлено: <b>🆕 НОВЫЙ ЗАКАЗ</b>
+
+📋 <b>Номер:</b> для Маши-26-...
+[2026-02-18 07:26:32] INFO in order_service:378 - Уведомление о новом заказе отправлено
+[2026-02-18 07:26:32] INFO in order_service:383 - ЗАКАЗ для Маши-26-02-002 УСПЕШНО СОЗДАН
+[2026-02-18 07:26:32] INFO in file_service:84 - 📁 Сохранение файла: WhatsApp Image 2025-12-02 at 18.28.47.jpeg, тип: source, пользователь: admin, роль: admin
+[2026-02-18 07:26:32] INFO in file_service:110 - Файл сохранен: C:\Users\5\Desktop\production_system_v3_3\app\..\uploads/orders/для Маши-26-02-002/source/4481487e_WhatsApp Image 2025-12-02 at 18.28.47.jpeg
+[2026-02-18 07:26:32] INFO in file_service:115 - 🔍 Проверка условий для парсера: file_type=source, user_role=admin, extension=False
+[2026-02-18 07:26:32] INFO in file_service:168 - Файл добавлен в БД: WhatsApp Image 2025-12-02 at 18.28.47.jpeg
+[2026-02-18 07:26:32] INFO in notification_service:265 - Создано уведомление ID 98: file_uploaded для пользователя Офис
+[2026-02-18 07:26:32] INFO in notification_service:384 - Email отправлен oficce_team_fs@fsteam.ru
+[2026-02-18 07:26:32] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:26:32] INFO in file_service:84 - 📁 Сохранение файла: Спецификация 86-25А.xlsx, тип: source, пользователь: admin, роль: admin
+[2026-02-18 07:26:32] INFO in file_service:110 - Файл сохранен: C:\Users\5\Desktop\production_system_v3_3\app\..\uploads/orders/для Маши-26-02-002/source/4d4a5ac5_Спецификация 86-25А.xlsx
+[2026-02-18 07:26:32] INFO in file_service:115 - 🔍 Проверка условий для парсера: file_type=source, user_role=admin, extension=True
+[2026-02-18 07:26:32] INFO in file_service:168 - Файл добавлен в БД: Спецификация 86-25А.xlsx
+[2026-02-18 07:26:32] INFO in notification_service:265 - Создано уведомление ID 99: file_uploaded для пользователя Офис
+[2026-02-18 07:26:32] INFO in notification_service:384 - Email отправлен oficce_team_fs@fsteam.ru
+[2026-02-18 07:26:32] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:26:32] INFO in file_service:84 - 📁 Сохранение файла: Эскиз.pdf, тип: source, пользователь: admin, роль: admin
+[2026-02-18 07:26:32] INFO in file_service:110 - Файл сохранен: C:\Users\5\Desktop\production_system_v3_3\app\..\uploads/orders/для Маши-26-02-002/source/3759a7d9_Эскиз.pdf
+[2026-02-18 07:26:32] INFO in file_service:115 - 🔍 Проверка условий для парсера: file_type=source, user_role=admin, extension=False
+[2026-02-18 07:26:32] INFO in file_service:168 - Файл добавлен в БД: Эскиз.pdf
+[2026-02-18 07:26:32] INFO in notification_service:265 - Создано уведомление ID 100: file_uploaded для пользователя Офис
+[2026-02-18 07:26:32] INFO in notification_service:384 - Email отправлен oficce_team_fs@fsteam.ru
+[2026-02-18 07:26:32] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:26:33] INFO in notification_service:175 - ✅ Email успешно отправлен на oficce_team_fs@fsteam.ru: [Система] Загружен файл: WhatsApp Image 2025-12-02 at 18.28.47.jpeg
+[2026-02-18 07:26:33] INFO in notification_service:175 - ✅ Email успешно отправлен на oficce_team_fs@fsteam.ru: [Система] Загружен файл: WhatsApp Image 2025-12-02 at 18.28.47.jpeg
+[2026-02-18 07:26:33] INFO in notification_service:175 - ✅ Email успешно отправлен на oficce_team_fs@fsteam.ru: [Система] Загружен файл: Спецификация 86-25А.xlsx
+[2026-02-18 07:26:33] INFO in notification_service:175 - ✅ Email успешно отправлен на oficce_team_fs@fsteam.ru: [Система] Загружен файл: Спецификация 86-25А.xlsx
+[2026-02-18 07:26:33] INFO in notification_service:175 - ✅ Email успешно отправлен на oficce_team_fs@fsteam.ru: [Система] Загружен файл: Эскиз.pdf
+[2026-02-18 07:26:33] INFO in notification_service:175 - ✅ Email успешно отправлен на oficce_team_fs@fsteam.ru: [Система] Загружен файл: Эскиз.pdf
+[2026-02-18 07:26:58] INFO in notification_service:265 - Создано уведомление ID 101: comment_added для пользователя Офис
+[2026-02-18 07:26:58] INFO in notification_service:384 - Email отправлен oficce_team_fs@fsteam.ru
+[2026-02-18 07:26:58] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:26:58] INFO in notification_service:435 - Создано 1 уведомлений типа 'comment_added'
+[2026-02-18 07:26:59] INFO in notification_service:175 - ✅ Email успешно отправлен на oficce_team_fs@fsteam.ru: [Система] Новый комментарий: для Маши-26-02-002
+[2026-02-18 07:26:59] INFO in notification_service:175 - ✅ Email успешно отправлен на oficce_team_fs@fsteam.ru: [Система] Новый комментарий: для Маши-26-02-002
+[2026-02-18 07:27:26] INFO in notification_service:265 - Создано уведомление ID 102: designer_assigned для пользователя Рушан Мустакимов
+[2026-02-18 07:27:26] INFO in notification_service:384 - Email отправлен rushan.ufa@gmail.com
+[2026-02-18 07:27:26] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:27:26] INFO in notification_service:265 - Создано уведомление ID 103: designer_assigned для пользователя Офис
+[2026-02-18 07:27:26] INFO in notification_service:384 - Email отправлен oficce_team_fs@fsteam.ru
+[2026-02-18 07:27:26] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:27:26] INFO in notification_service:265 - Создано уведомление ID 104: designer_assigned для пользователя admin
+[2026-02-18 07:27:26] INFO in notification_service:384 - Email отправлен admin@example.com
+[2026-02-18 07:27:26] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:27:26] INFO in notification_service:265 - Создано уведомление ID 105: designer_assigned для пользователя Рушан
+[2026-02-18 07:27:26] INFO in notification_service:384 - Email отправлен mrush@mail.ru
+[2026-02-18 07:27:26] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:27:26] INFO in telegram_service:104 - Telegram сообщение отправлено: <b>👨‍💼 НАЗНАЧЕНИЕ КОНСТРУКТОРА</b>
+
+📋 <b>Заказ:</b...
+[2026-02-18 07:27:26] INFO in notification_service:175 - ✅ Email успешно отправлен на rushan.ufa@gmail.com: [Система] Назначен на заказ: для Маши-26-02-002
+[2026-02-18 07:27:26] INFO in notification_service:175 - ✅ Email успешно отправлен на rushan.ufa@gmail.com: [Система] Назначен на заказ: для Маши-26-02-002
+[2026-02-18 07:27:26] INFO in notification_service:175 - ✅ Email успешно отправлен на oficce_team_fs@fsteam.ru: [Система] Конструктор назначен: для Маши-26-02-002
+[2026-02-18 07:27:26] INFO in notification_service:175 - ✅ Email успешно отправлен на oficce_team_fs@fsteam.ru: [Система] Конструктор назначен: для Маши-26-02-002
+[2026-02-18 07:27:26] INFO in notification_service:175 - ✅ Email успешно отправлен на admin@example.com: [Система] Назначение конструктора: для Маши-26-02-002
+[2026-02-18 07:27:26] INFO in notification_service:175 - ✅ Email успешно отправлен на admin@example.com: [Система] Назначение конструктора: для Маши-26-02-002
+[2026-02-18 07:27:26] INFO in notification_service:175 - ✅ Email успешно отправлен на mrush@mail.ru: [Система] Назначение конструктора: для Маши-26-02-002
+[2026-02-18 07:27:26] INFO in notification_service:175 - ✅ Email успешно отправлен на mrush@mail.ru: [Система] Назначение конструктора: для Маши-26-02-002
+[2026-02-18 07:27:52] INFO in file_service:84 - 📁 Сохранение файла: на согласование V2.pdf, тип: review, пользователь: admin, роль: admin
+[2026-02-18 07:27:52] INFO in file_service:110 - Файл сохранен: C:\Users\5\Desktop\production_system_v3_3\app\..\uploads/orders/для Маши-26-02-002/review/0912e623_на согласование V2.pdf
+[2026-02-18 07:27:52] INFO in file_service:115 - 🔍 Проверка условий для парсера: file_type=review, user_role=admin, extension=False
+[2026-02-18 07:27:52] INFO in file_service:168 - Файл добавлен в БД: на согласование V2.pdf
+[2026-02-18 07:27:52] INFO in notification_service:265 - Создано уведомление ID 106: file_uploaded для пользователя Офис
+[2026-02-18 07:27:52] INFO in notification_service:384 - Email отправлен oficce_team_fs@fsteam.ru
+[2026-02-18 07:27:52] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:27:53] INFO in notification_service:175 - ✅ Email успешно отправлен на oficce_team_fs@fsteam.ru: [Система] Загружен файл: на согласование V2.pdf
+[2026-02-18 07:27:53] INFO in notification_service:175 - ✅ Email успешно отправлен на oficce_team_fs@fsteam.ru: [Система] Загружен файл: на согласование V2.pdf
+[2026-02-18 07:29:11] INFO in order_service:1143 - === РАСЧЕТ СТАТИСТИКИ для пользователя 6 (head_designer) ===
+[2026-02-18 07:29:11] INFO in order_service:1202 - Фильтр: руководитель конструкторов (без фильтрации)
+[2026-02-18 07:29:11] INFO in order_service:1211 - Найдено заказов: 7
+[2026-02-18 07:29:11] INFO in order_service:1310 - Статистика рассчитана: {'total': 7, 'new': 0, 'in_progress': 7, 'completed': 0, 'delivered': 0, 'reclamations': 0, 'overdue': 0, 'this_week': 6, 'this_month': 7, 'archived': 0}
+[2026-02-18 07:29:25] INFO in order_service:903 - === ИЗМЕНЕНИЕ СТАТУСА ЗАКАЗА 25 (для Маши-26-02-002) ===
+[2026-02-18 07:29:25] INFO in order_service:904 - Пользователь: 6 (Рушан Мустакимов)
+[2026-02-18 07:29:25] INFO in order_service:905 - Текущий статус: design, Новый статус: design_review
+[2026-02-18 07:29:25] INFO in order_service:959 - Добавлена запись в историю статусов
+[2026-02-18 07:29:25] INFO in notification_service:265 - Создано уведомление ID 107: status_changed для пользователя admin
+[2026-02-18 07:29:25] INFO in notification_service:384 - Email отправлен admin@example.com
+[2026-02-18 07:29:25] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:29:25] INFO in notification_service:265 - Создано уведомление ID 108: status_changed для пользователя Рушан
+[2026-02-18 07:29:25] INFO in notification_service:384 - Email отправлен mrush@mail.ru
+[2026-02-18 07:29:25] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:29:25] INFO in notification_service:265 - Создано уведомление ID 109: status_changed для пользователя Салон Мытищи
+[2026-02-18 07:29:25] INFO in notification_service:384 - Email отправлен magmytischi@eligo.org
+[2026-02-18 07:29:25] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:29:25] INFO in notification_service:265 - Создано уведомление ID 110: status_changed для пользователя Офис
+[2026-02-18 07:29:25] INFO in notification_service:384 - Email отправлен oficce_team_fs@fsteam.ru
+[2026-02-18 07:29:25] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:29:25] INFO in notification_service:265 - Создано уведомление ID 111: status_changed для пользователя Рушан Мустакимов
+[2026-02-18 07:29:25] INFO in notification_service:384 - Email отправлен rushan.ufa@gmail.com
+[2026-02-18 07:29:25] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:29:26] INFO in telegram_service:104 - Telegram сообщение отправлено: <b>🔄 ИЗМЕНЕНИЕ СТАТУСА</b>
+
+📋 <b>Заказ:</b> для Ма...
+[2026-02-18 07:29:26] INFO in notification_service:1133 - Создано 5 уведомлений об изменении статуса для Маши-26-02-002
+[2026-02-18 07:29:26] INFO in order_service:963 - Уведомление об изменении статуса отправлено
+[2026-02-18 07:29:26] INFO in order_service:986 - handle_auto_actions: order=25, new_status=design_review
+[2026-02-18 07:29:26] INFO in order_service:975 - Обнаружены конфликты в расписании заказа для Маши-26-02-002: 1
+[2026-02-18 07:29:26] INFO in order_service:980 - СТАТУС ЗАКАЗА для Маши-26-02-002 ИЗМЕНЕН НА design_review
+[2026-02-18 07:29:26] INFO in notification_service:175 - ✅ Email успешно отправлен на admin@example.com: [Система] 📊 Изменен статус: для Маши-26-02-002
+[2026-02-18 07:29:26] INFO in notification_service:175 - ✅ Email успешно отправлен на admin@example.com: [Система] 📊 Изменен статус: для Маши-26-02-002
+[2026-02-18 07:29:26] INFO in notification_service:175 - ✅ Email успешно отправлен на mrush@mail.ru: [Система] 📊 Изменен статус: для Маши-26-02-002
+[2026-02-18 07:29:26] INFO in notification_service:175 - ✅ Email успешно отправлен на mrush@mail.ru: [Система] 📊 Изменен статус: для Маши-26-02-002
+[2026-02-18 07:29:26] INFO in notification_service:175 - ✅ Email успешно отправлен на magmytischi@eligo.org: [Система] 📊 Изменен статус: для Маши-26-02-002
+[2026-02-18 07:29:26] INFO in notification_service:175 - ✅ Email успешно отправлен на oficce_team_fs@fsteam.ru: [Система] 📊 Изменен статус: для Маши-26-02-002
+[2026-02-18 07:29:26] INFO in notification_service:175 - ✅ Email успешно отправлен на magmytischi@eligo.org: [Система] 📊 Изменен статус: для Маши-26-02-002
+[2026-02-18 07:29:26] INFO in notification_service:175 - ✅ Email успешно отправлен на oficce_team_fs@fsteam.ru: [Система] 📊 Изменен статус: для Маши-26-02-002
+[2026-02-18 07:29:26] INFO in notification_service:175 - ✅ Email успешно отправлен на rushan.ufa@gmail.com: [Система] 📊 Изменен статус: для Маши-26-02-002
+[2026-02-18 07:29:26] INFO in notification_service:175 - ✅ Email успешно отправлен на rushan.ufa@gmail.com: [Система] 📊 Изменен статус: для Маши-26-02-002
+[2026-02-18 07:29:53] INFO in order_service:1143 - === РАСЧЕТ СТАТИСТИКИ для пользователя 14 (salon_manager) ===
+[2026-02-18 07:29:53] INFO in order_service:1167 - Фильтр: менеджер салона 14
+[2026-02-18 07:29:53] INFO in order_service:1211 - Найдено заказов: 3
+[2026-02-18 07:29:53] INFO in order_service:1310 - Статистика рассчитана: {'total': 3, 'new': 0, 'in_progress': 2, 'completed': 0, 'delivered': 0, 'reclamations': 0, 'overdue': 0, 'this_week': 3, 'this_month': 3, 'archived': 0}
+[2026-02-18 07:30:00] INFO in supplier_parser_tasks:61 - Запуск периодической проверки файлов спецификаций
+[2026-02-18 07:30:00] INFO in supplier_parser_tasks:74 - Найдено 3 файлов для проверки
+[2026-02-18 07:30:00] INFO in supplier_parser_tasks:99 - Обработка заказа 08-26Е-26-02-002
+[2026-02-18 07:30:00] INFO in supplier_parser_integration:35 - === НАЧАЛО process_order_files для заказа 23 ===
+[2026-02-18 07:30:00] INFO in supplier_parser_integration:36 - Поиск Excel-файлов в заказе...
+[2026-02-18 07:30:00] INFO in supplier_parser_integration:45 - Начинаем обработку файлов для заказа 08-26Е-26-02-002
+[2026-02-18 07:30:00] INFO in supplier_parser_integration:67 - Нет Excel-файлов для обработки в заказе 08-26Е-26-02-002
+[2026-02-18 07:30:00] INFO in supplier_parser_tasks:99 - Обработка заказа 09-26Е-26-02-002
+[2026-02-18 07:30:00] INFO in supplier_parser_integration:35 - === НАЧАЛО process_order_files для заказа 24 ===
+[2026-02-18 07:30:00] INFO in supplier_parser_integration:36 - Поиск Excel-файлов в заказе...
+[2026-02-18 07:30:00] INFO in supplier_parser_integration:45 - Начинаем обработку файлов для заказа 09-26Е-26-02-002
+[2026-02-18 07:30:00] INFO in supplier_parser_integration:67 - Нет Excel-файлов для обработки в заказе 09-26Е-26-02-002
+[2026-02-18 07:30:00] INFO in supplier_parser_tasks:99 - Обработка заказа для Маши-26-02-002
+[2026-02-18 07:30:00] INFO in supplier_parser_integration:35 - === НАЧАЛО process_order_files для заказа 25 ===
+[2026-02-18 07:30:00] INFO in supplier_parser_integration:36 - Поиск Excel-файлов в заказе...
+[2026-02-18 07:30:00] INFO in supplier_parser_integration:45 - Начинаем обработку файлов для заказа для Маши-26-02-002
+[2026-02-18 07:30:00] INFO in supplier_parser_integration:67 - Нет Excel-файлов для обработки в заказе для Маши-26-02-002
+[2026-02-18 07:30:00] INFO in supplier_parser_tasks:106 - Обработано заказов: 3
+[2026-02-18 07:30:00] INFO in __init__:522 - ✅ process_pending_specifications: 3
+[2026-02-18 07:30:15] INFO in order_service:903 - === ИЗМЕНЕНИЕ СТАТУСА ЗАКАЗА 25 (для Маши-26-02-002) ===
+[2026-02-18 07:30:15] INFO in order_service:904 - Пользователь: 14 (Офис)
+[2026-02-18 07:30:15] INFO in order_service:905 - Текущий статус: design_review, Новый статус: design_client_approved
+[2026-02-18 07:30:15] INFO in order_service:959 - Добавлена запись в историю статусов
+[2026-02-18 07:30:15] INFO in notification_service:265 - Создано уведомление ID 112: status_changed для пользователя admin
+[2026-02-18 07:30:15] INFO in notification_service:384 - Email отправлен admin@example.com
+[2026-02-18 07:30:15] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:30:15] INFO in notification_service:265 - Создано уведомление ID 113: status_changed для пользователя Рушан
+[2026-02-18 07:30:15] INFO in notification_service:384 - Email отправлен mrush@mail.ru
+[2026-02-18 07:30:15] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:30:15] INFO in notification_service:265 - Создано уведомление ID 114: status_changed для пользователя Станислав Монахов
+[2026-02-18 07:30:15] INFO in notification_service:384 - Email отправлен monakhov.str@gmail.com
+[2026-02-18 07:30:15] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:30:15] INFO in notification_service:265 - Создано уведомление ID 115: status_changed для пользователя Александра Шилова
+[2026-02-18 07:30:15] INFO in notification_service:384 - Email отправлен shilova.alexandra1999@gmail.com
+[2026-02-18 07:30:15] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:30:15] INFO in notification_service:265 - Создано уведомление ID 116: status_changed для пользователя Алексей Лазукин
+[2026-02-18 07:30:15] INFO in notification_service:384 - Email отправлен lazukin.str@gmail.com
+[2026-02-18 07:30:15] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:30:15] INFO in notification_service:265 - Создано уведомление ID 117: status_changed для пользователя Роман Костин
+[2026-02-18 07:30:15] INFO in notification_service:384 - Email отправлен r.kostin@mail.ru
+[2026-02-18 07:30:15] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:30:15] INFO in notification_service:265 - Создано уведомление ID 118: status_changed для пользователя Рушан Мустакимов
+[2026-02-18 07:30:15] INFO in notification_service:384 - Email отправлен rushan.ufa@gmail.com
+[2026-02-18 07:30:15] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:30:15] INFO in telegram_service:104 - Telegram сообщение отправлено: <b>🔄 ИЗМЕНЕНИЕ СТАТУСА</b>
+
+📋 <b>Заказ:</b> для Ма...
+[2026-02-18 07:30:15] INFO in notification_service:1133 - Создано 7 уведомлений об изменении статуса для Маши-26-02-002
+[2026-02-18 07:30:15] INFO in order_service:963 - Уведомление об изменении статуса отправлено
+[2026-02-18 07:30:15] INFO in order_service:986 - handle_auto_actions: order=25, new_status=design_client_approved
+[2026-02-18 07:30:15] INFO in notification_service:265 - Создано уведомление ID 119: design_client_approved для пользователя Рушан Мустакимов
+[2026-02-18 07:30:15] INFO in notification_service:384 - Email отправлен rushan.ufa@gmail.com
+[2026-02-18 07:30:15] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:30:15] INFO in notification_service:265 - Создано уведомление ID 120: design_client_approved для пользователя admin
+[2026-02-18 07:30:15] INFO in notification_service:384 - Email отправлен admin@example.com
+[2026-02-18 07:30:15] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:30:15] INFO in notification_service:265 - Создано уведомление ID 121: design_client_approved для пользователя Рушан
+[2026-02-18 07:30:15] INFO in notification_service:384 - Email отправлен mrush@mail.ru
+[2026-02-18 07:30:15] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:30:16] INFO in notification_service:175 - ✅ Email успешно отправлен на admin@example.com: [Система] 📊 Изменен статус: для Маши-26-02-002
+[2026-02-18 07:30:16] INFO in notification_service:175 - ✅ Email успешно отправлен на admin@example.com: [Система] 📊 Изменен статус: для Маши-26-02-002
+[2026-02-18 07:30:16] INFO in notification_service:175 - ✅ Email успешно отправлен на mrush@mail.ru: [Система] 📊 Изменен статус: для Маши-26-02-002
+[2026-02-18 07:30:16] INFO in notification_service:175 - ✅ Email успешно отправлен на monakhov.str@gmail.com: [Система] 📊 Изменен статус: для Маши-26-02-002
+[2026-02-18 07:30:16] INFO in notification_service:175 - ✅ Email успешно отправлен на mrush@mail.ru: [Система] 📊 Изменен статус: для Маши-26-02-002
+[2026-02-18 07:30:16] INFO in notification_service:175 - ✅ Email успешно отправлен на monakhov.str@gmail.com: [Система] 📊 Изменен статус: для Маши-26-02-002
+[2026-02-18 07:30:16] INFO in notification_service:175 - ✅ Email успешно отправлен на shilova.alexandra1999@gmail.com: [Система] 📊 Изменен статус: для Маши-26-02-002
+[2026-02-18 07:30:16] INFO in notification_service:175 - ✅ Email успешно отправлен на shilova.alexandra1999@gmail.com: [Система] 📊 Изменен статус: для Маши-26-02-002
+[2026-02-18 07:30:16] INFO in notification_service:175 - ✅ Email успешно отправлен на lazukin.str@gmail.com: [Система] 📊 Изменен статус: для Маши-26-02-002
+[2026-02-18 07:30:16] INFO in notification_service:175 - ✅ Email успешно отправлен на lazukin.str@gmail.com: [Система] 📊 Изменен статус: для Маши-26-02-002
+[2026-02-18 07:30:16] INFO in notification_service:175 - ✅ Email успешно отправлен на r.kostin@mail.ru: [Система] 📊 Изменен статус: для Маши-26-02-002
+[2026-02-18 07:30:16] INFO in notification_service:175 - ✅ Email успешно отправлен на rushan.ufa@gmail.com: [Система] 📊 Изменен статус: для Маши-26-02-002
+[2026-02-18 07:30:16] INFO in notification_service:175 - ✅ Email успешно отправлен на rushan.ufa@gmail.com: [Система] 📊 Изменен статус: для Маши-26-02-002
+[2026-02-18 07:30:16] INFO in notification_service:175 - ✅ Email успешно отправлен на r.kostin@mail.ru: [Система] 📊 Изменен статус: для Маши-26-02-002
+[2026-02-18 07:30:16] INFO in notification_service:175 - ✅ Email успешно отправлен на rushan.ufa@gmail.com: [Система] ✅ Эскиз согласован: для Маши-26-02-002
+[2026-02-18 07:30:16] INFO in notification_service:175 - ✅ Email успешно отправлен на rushan.ufa@gmail.com: [Система] ✅ Эскиз согласован: для Маши-26-02-002
+[2026-02-18 07:30:16] INFO in notification_service:175 - ✅ Email успешно отправлен на admin@example.com: [Система] Эскиз согласован: для Маши-26-02-002
+[2026-02-18 07:30:16] INFO in notification_service:175 - ✅ Email успешно отправлен на admin@example.com: [Система] Эскиз согласован: для Маши-26-02-002
+[2026-02-18 07:30:16] INFO in notification_service:175 - ✅ Email успешно отправлен на mrush@mail.ru: [Система] Эскиз согласован: для Маши-26-02-002
+[2026-02-18 07:30:16] INFO in notification_service:175 - ✅ Email успешно отправлен на mrush@mail.ru: [Система] Эскиз согласован: для Маши-26-02-002
+[2026-02-18 07:30:17] INFO in telegram_service:104 - Telegram сообщение отправлено: <b>✅ ЭСКИЗ СОГЛАСОВАН</b>
+
+📋 <b>Заказ:</b> для Маш...
+[2026-02-18 07:30:17] INFO in order_service:994 - Уведомление notify_design_client_approved отправлено
+[2026-02-18 07:30:17] INFO in order_service:975 - Обнаружены конфликты в расписании заказа для Маши-26-02-002: 1
+[2026-02-18 07:30:17] INFO in order_service:980 - СТАТУС ЗАКАЗА для Маши-26-02-002 ИЗМЕНЕН НА design_client_approved
+[2026-02-18 07:30:43] INFO in order_service:1143 - === РАСЧЕТ СТАТИСТИКИ для пользователя 6 (head_designer) ===
+[2026-02-18 07:30:43] INFO in order_service:1202 - Фильтр: руководитель конструкторов (без фильтрации)
+[2026-02-18 07:30:43] INFO in order_service:1211 - Найдено заказов: 7
+[2026-02-18 07:30:43] INFO in order_service:1310 - Статистика рассчитана: {'total': 7, 'new': 0, 'in_progress': 7, 'completed': 0, 'delivered': 0, 'reclamations': 0, 'overdue': 0, 'this_week': 6, 'this_month': 7, 'archived': 0}
+[2026-02-18 07:31:33] INFO in file_service:84 - 📁 Сохранение файла: Снимок.PNG, тип: design, пользователь: Рушан Мустакимов, роль: head_designer
+[2026-02-18 07:31:33] INFO in file_service:110 - Файл сохранен: C:\Users\5\Desktop\production_system_v3_3\app\..\uploads/orders/для Маши-26-02-002/design/9cd39cca_Снимок.PNG
+[2026-02-18 07:31:33] INFO in file_service:115 - 🔍 Проверка условий для парсера: file_type=design, user_role=head_designer, extension=False
+[2026-02-18 07:31:33] INFO in file_service:168 - Файл добавлен в БД: Снимок.PNG
+[2026-02-18 07:31:33] INFO in notification_service:265 - Создано уведомление ID 122: file_uploaded для пользователя Офис
+[2026-02-18 07:31:33] INFO in notification_service:384 - Email отправлен oficce_team_fs@fsteam.ru
+[2026-02-18 07:31:33] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:31:33] INFO in file_service:84 - 📁 Сохранение файла: Спецификация на закупку Касперович.xlsx, тип: design, пользователь: Рушан Мустакимов, роль: head_designer
+[2026-02-18 07:31:33] INFO in file_service:110 - Файл сохранен: C:\Users\5\Desktop\production_system_v3_3\app\..\uploads/orders/для Маши-26-02-002/design/4272e7a3_Спецификация на закупку Касперович.xlsx
+[2026-02-18 07:31:33] INFO in file_service:115 - 🔍 Проверка условий для парсера: file_type=design, user_role=head_designer, extension=True
+[2026-02-18 07:31:33] INFO in file_service:132 - Запуск парсера для файла Спецификация на закупку Касперович.xlsx
+[2026-02-18 07:31:33] INFO in file_service:144 - Парсер запущен в фоне для заказа для Маши-26-02-002
+[2026-02-18 07:31:33] INFO in file_service:168 - Файл добавлен в БД: Спецификация на закупку Касперович.xlsx
+[2026-02-18 07:31:33] INFO in notification_service:265 - Создано уведомление ID 123: file_uploaded для пользователя Офис
+[2026-02-18 07:31:33] INFO in notification_service:384 - Email отправлен oficce_team_fs@fsteam.ru
+[2026-02-18 07:31:33] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:31:33] INFO in file_service:84 - 📁 Сохранение файла: Шкаф распашной V2.b3d, тип: design, пользователь: Рушан Мустакимов, роль: head_designer
+[2026-02-18 07:31:33] INFO in file_service:110 - Файл сохранен: C:\Users\5\Desktop\production_system_v3_3\app\..\uploads/orders/для Маши-26-02-002/design/ef468085_Шкаф распашной V2.b3d
+[2026-02-18 07:31:33] INFO in file_service:115 - 🔍 Проверка условий для парсера: file_type=design, user_role=head_designer, extension=False
+[2026-02-18 07:31:33] INFO in file_service:168 - Файл добавлен в БД: Шкаф распашной V2.b3d
+[2026-02-18 07:31:34] INFO in notification_service:265 - Создано уведомление ID 124: file_uploaded для пользователя Офис
+[2026-02-18 07:31:34] INFO in notification_service:384 - Email отправлен oficce_team_fs@fsteam.ru
+[2026-02-18 07:31:34] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:31:34] INFO in file_service:84 - 📁 Сохранение файла: Шкаф распашной.b3d, тип: design, пользователь: Рушан Мустакимов, роль: head_designer
+[2026-02-18 07:31:34] INFO in file_service:110 - Файл сохранен: C:\Users\5\Desktop\production_system_v3_3\app\..\uploads/orders/для Маши-26-02-002/design/eea25790_Шкаф распашной.b3d
+[2026-02-18 07:31:34] INFO in file_service:115 - 🔍 Проверка условий для парсера: file_type=design, user_role=head_designer, extension=False
+[2026-02-18 07:31:34] INFO in file_service:168 - Файл добавлен в БД: Шкаф распашной.b3d
+[2026-02-18 07:31:34] INFO in notification_service:265 - Создано уведомление ID 125: file_uploaded для пользователя Офис
+[2026-02-18 07:31:34] INFO in notification_service:384 - Email отправлен oficce_team_fs@fsteam.ru
+[2026-02-18 07:31:34] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:31:34] INFO in file_service:84 - 📁 Сохранение файла: Шкаф распашнойV2.bln, тип: design, пользователь: Рушан Мустакимов, роль: head_designer
+[2026-02-18 07:31:34] INFO in file_service:110 - Файл сохранен: C:\Users\5\Desktop\production_system_v3_3\app\..\uploads/orders/для Маши-26-02-002/design/d93163a1_Шкаф распашнойV2.bln
+[2026-02-18 07:31:34] INFO in file_service:115 - 🔍 Проверка условий для парсера: file_type=design, user_role=head_designer, extension=False
+[2026-02-18 07:31:34] INFO in file_service:168 - Файл добавлен в БД: Шкаф распашнойV2.bln
+[2026-02-18 07:31:34] INFO in notification_service:265 - Создано уведомление ID 126: file_uploaded для пользователя Офис
+[2026-02-18 07:31:34] INFO in notification_service:384 - Email отправлен oficce_team_fs@fsteam.ru
+[2026-02-18 07:31:34] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:31:34] INFO in notification_service:175 - ✅ Email успешно отправлен на oficce_team_fs@fsteam.ru: [Система] Загружен файл: Снимок.PNG
+[2026-02-18 07:31:34] INFO in notification_service:175 - ✅ Email успешно отправлен на oficce_team_fs@fsteam.ru: [Система] Загружен файл: Снимок.PNG
+[2026-02-18 07:31:34] INFO in notification_service:175 - ✅ Email успешно отправлен на oficce_team_fs@fsteam.ru: [Система] Загружен файл: Спецификация на закупку Касперович.xlsx
+[2026-02-18 07:31:34] INFO in notification_service:175 - ✅ Email успешно отправлен на oficce_team_fs@fsteam.ru: [Система] Загружен файл: Спецификация на закупку Касперович.xlsx
+[2026-02-18 07:31:34] INFO in notification_service:175 - ✅ Email успешно отправлен на oficce_team_fs@fsteam.ru: [Система] Загружен файл: Шкаф распашной V2.b3d
+[2026-02-18 07:31:34] INFO in notification_service:175 - ✅ Email успешно отправлен на oficce_team_fs@fsteam.ru: [Система] Загружен файл: Шкаф распашной V2.b3d
+[2026-02-18 07:31:34] INFO in notification_service:175 - ✅ Email успешно отправлен на oficce_team_fs@fsteam.ru: [Система] Загружен файл: Шкаф распашной.b3d
+[2026-02-18 07:31:34] INFO in notification_service:175 - ✅ Email успешно отправлен на oficce_team_fs@fsteam.ru: [Система] Загружен файл: Шкаф распашной.b3d
+[2026-02-18 07:31:34] INFO in notification_service:175 - ✅ Email успешно отправлен на oficce_team_fs@fsteam.ru: [Система] Загружен файл: Шкаф распашнойV2.bln
+[2026-02-18 07:31:34] INFO in notification_service:175 - ✅ Email успешно отправлен на oficce_team_fs@fsteam.ru: [Система] Загружен файл: Шкаф распашнойV2.bln
+[2026-02-18 07:31:46] INFO in order_service:903 - === ИЗМЕНЕНИЕ СТАТУСА ЗАКАЗА 25 (для Маши-26-02-002) ===
+[2026-02-18 07:31:46] INFO in order_service:904 - Пользователь: 6 (Рушан Мустакимов)
+[2026-02-18 07:31:46] INFO in order_service:905 - Текущий статус: design_client_approved, Новый статус: in_design
+[2026-02-18 07:31:46] INFO in order_service:959 - Добавлена запись в историю статусов
+[2026-02-18 07:31:46] INFO in notification_service:265 - Создано уведомление ID 127: status_changed для пользователя admin
+[2026-02-18 07:31:46] INFO in notification_service:384 - Email отправлен admin@example.com
+[2026-02-18 07:31:46] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:31:46] INFO in notification_service:265 - Создано уведомление ID 128: status_changed для пользователя Рушан
+[2026-02-18 07:31:46] INFO in notification_service:384 - Email отправлен mrush@mail.ru
+[2026-02-18 07:31:46] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:31:46] INFO in notification_service:265 - Создано уведомление ID 129: status_changed для пользователя Офис
+[2026-02-18 07:31:46] INFO in notification_service:384 - Email отправлен oficce_team_fs@fsteam.ru
+[2026-02-18 07:31:46] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:31:46] INFO in telegram_service:104 - Telegram сообщение отправлено: <b>🔄 ИЗМЕНЕНИЕ СТАТУСА</b>
+
+📋 <b>Заказ:</b> для Ма...
+[2026-02-18 07:31:46] INFO in notification_service:1133 - Создано 3 уведомлений об изменении статуса для Маши-26-02-002
+[2026-02-18 07:31:46] INFO in order_service:963 - Уведомление об изменении статуса отправлено
+[2026-02-18 07:31:46] INFO in order_service:986 - handle_auto_actions: order=25, new_status=in_design
+[2026-02-18 07:31:46] INFO in order_service:975 - Обнаружены конфликты в расписании заказа для Маши-26-02-002: 1
+[2026-02-18 07:31:46] INFO in order_service:980 - СТАТУС ЗАКАЗА для Маши-26-02-002 ИЗМЕНЕН НА in_design
+[2026-02-18 07:31:47] INFO in notification_service:175 - ✅ Email успешно отправлен на admin@example.com: [Система] 📊 Изменен статус: для Маши-26-02-002
+[2026-02-18 07:31:47] INFO in notification_service:175 - ✅ Email успешно отправлен на admin@example.com: [Система] 📊 Изменен статус: для Маши-26-02-002
+[2026-02-18 07:31:47] INFO in notification_service:175 - ✅ Email успешно отправлен на mrush@mail.ru: [Система] 📊 Изменен статус: для Маши-26-02-002
+[2026-02-18 07:31:47] INFO in notification_service:175 - ✅ Email успешно отправлен на mrush@mail.ru: [Система] 📊 Изменен статус: для Маши-26-02-002
+[2026-02-18 07:31:47] INFO in notification_service:175 - ✅ Email успешно отправлен на oficce_team_fs@fsteam.ru: [Система] 📊 Изменен статус: для Маши-26-02-002
+[2026-02-18 07:31:47] INFO in notification_service:175 - ✅ Email успешно отправлен на oficce_team_fs@fsteam.ru: [Система] 📊 Изменен статус: для Маши-26-02-002
+[2026-02-18 07:32:31] INFO in notification_service:265 - Создано уведомление ID 130: comment_added для пользователя Офис
+[2026-02-18 07:32:31] INFO in notification_service:384 - Email отправлен oficce_team_fs@fsteam.ru
+[2026-02-18 07:32:31] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:32:31] INFO in notification_service:435 - Создано 1 уведомлений типа 'comment_added'
+[2026-02-18 07:32:32] INFO in notification_service:175 - ✅ Email успешно отправлен на oficce_team_fs@fsteam.ru: [Система] Новый комментарий: для Маши-26-02-002
+[2026-02-18 07:32:32] INFO in notification_service:175 - ✅ Email успешно отправлен на oficce_team_fs@fsteam.ru: [Система] Новый комментарий: для Маши-26-02-002
+[2026-02-18 07:33:36] INFO in order_service:903 - === ИЗМЕНЕНИЕ СТАТУСА ЗАКАЗА 25 (для Маши-26-02-002) ===
+[2026-02-18 07:33:36] INFO in order_service:904 - Пользователь: 6 (Рушан Мустакимов)
+[2026-02-18 07:33:36] INFO in order_service:905 - Текущий статус: in_design, Новый статус: design_completed
+[2026-02-18 07:33:36] INFO in order_service:925 - Установлена design_completed_date
+[2026-02-18 07:33:36] ERROR in order_service:942 - Ошибка при обработке раннего завершения: NotificationService.create_notification() got an unexpected keyword argument 'details'
+Traceback (most recent call last):
+  File "C:\Users\5\Desktop\production_system_v3_3\app\services\order_service.py", line 932, in change_order_status
+    NotificationService.create_notification(
+TypeError: NotificationService.create_notification() got an unexpected keyword argument 'details'
+[2026-02-18 07:33:36] INFO in order_service:959 - Добавлена запись в историю статусов
+[2026-02-18 07:33:36] INFO in notification_service:265 - Создано уведомление ID 131: status_changed для пользователя admin
+[2026-02-18 07:33:36] INFO in notification_service:384 - Email отправлен admin@example.com
+[2026-02-18 07:33:36] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:33:36] INFO in notification_service:265 - Создано уведомление ID 132: status_changed для пользователя Рушан
+[2026-02-18 07:33:36] INFO in notification_service:384 - Email отправлен mrush@mail.ru
+[2026-02-18 07:33:36] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:33:36] INFO in notification_service:265 - Создано уведомление ID 133: status_changed для пользователя Закупка
+[2026-02-18 07:33:36] INFO in notification_service:384 - Email отправлен zakazsnab.str@gmail.com
+[2026-02-18 07:33:36] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:33:36] INFO in notification_service:265 - Создано уведомление ID 134: status_changed для пользователя Рушан Мустакимов
+[2026-02-18 07:33:36] INFO in notification_service:384 - Email отправлен rushan.ufa@gmail.com
+[2026-02-18 07:33:36] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:33:36] INFO in notification_service:265 - Создано уведомление ID 135: status_changed для пользователя Офис
+[2026-02-18 07:33:36] INFO in notification_service:384 - Email отправлен oficce_team_fs@fsteam.ru
+[2026-02-18 07:33:36] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:33:37] INFO in notification_service:175 - ✅ Email успешно отправлен на admin@example.com: [Система] 📊 Изменен статус: для Маши-26-02-002
+[2026-02-18 07:33:37] INFO in notification_service:175 - ✅ Email успешно отправлен на admin@example.com: [Система] 📊 Изменен статус: для Маши-26-02-002
+[2026-02-18 07:33:37] INFO in notification_service:175 - ✅ Email успешно отправлен на mrush@mail.ru: [Система] 📊 Изменен статус: для Маши-26-02-002
+[2026-02-18 07:33:37] INFO in notification_service:175 - ✅ Email успешно отправлен на mrush@mail.ru: [Система] 📊 Изменен статус: для Маши-26-02-002
+[2026-02-18 07:33:37] INFO in notification_service:175 - ✅ Email успешно отправлен на zakazsnab.str@gmail.com: [Система] 📊 Изменен статус: для Маши-26-02-002
+[2026-02-18 07:33:37] INFO in notification_service:175 - ✅ Email успешно отправлен на rushan.ufa@gmail.com: [Система] 📊 Изменен статус: для Маши-26-02-002
+[2026-02-18 07:33:37] INFO in notification_service:175 - ✅ Email успешно отправлен на zakazsnab.str@gmail.com: [Система] 📊 Изменен статус: для Маши-26-02-002
+[2026-02-18 07:33:37] INFO in notification_service:175 - ✅ Email успешно отправлен на rushan.ufa@gmail.com: [Система] 📊 Изменен статус: для Маши-26-02-002
+[2026-02-18 07:33:37] INFO in notification_service:175 - ✅ Email успешно отправлен на oficce_team_fs@fsteam.ru: [Система] 📊 Изменен статус: для Маши-26-02-002
+[2026-02-18 07:33:37] INFO in notification_service:175 - ✅ Email успешно отправлен на oficce_team_fs@fsteam.ru: [Система] 📊 Изменен статус: для Маши-26-02-002
+[2026-02-18 07:33:37] INFO in telegram_service:104 - Telegram сообщение отправлено: <b>🔄 ИЗМЕНЕНИЕ СТАТУСА</b>
+
+📋 <b>Заказ:</b> для Ма...
+[2026-02-18 07:33:37] INFO in notification_service:1133 - Создано 5 уведомлений об изменении статуса для Маши-26-02-002
+[2026-02-18 07:33:37] INFO in order_service:963 - Уведомление об изменении статуса отправлено
+[2026-02-18 07:33:37] INFO in order_service:986 - handle_auto_actions: order=25, new_status=design_completed
+[2026-02-18 07:33:37] INFO in notification_service:265 - Создано уведомление ID 136: design_completed для пользователя admin
+[2026-02-18 07:33:37] INFO in notification_service:384 - Email отправлен admin@example.com
+[2026-02-18 07:33:37] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:33:37] INFO in notification_service:265 - Создано уведомление ID 137: design_completed для пользователя Рушан
+[2026-02-18 07:33:37] INFO in notification_service:384 - Email отправлен mrush@mail.ru
+[2026-02-18 07:33:37] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:33:37] INFO in notification_service:265 - Создано уведомление ID 138: design_completed для пользователя Закупка
+[2026-02-18 07:33:37] INFO in notification_service:384 - Email отправлен zakazsnab.str@gmail.com
+[2026-02-18 07:33:37] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:33:37] INFO in notification_service:265 - Создано уведомление ID 139: design_completed для пользователя Офис
+[2026-02-18 07:33:37] INFO in notification_service:384 - Email отправлен oficce_team_fs@fsteam.ru
+[2026-02-18 07:33:37] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:33:38] INFO in telegram_service:104 - Telegram сообщение отправлено: <b>✅ РАЗРАБОТКА ЗАВЕРШЕНА</b>
+
+📋 <b>Заказ:</b> для...
+[2026-02-18 07:33:38] INFO in order_service:997 - Уведомление notify_design_completed отправлено
+[2026-02-18 07:33:38] INFO in order_service:975 - Обнаружены конфликты в расписании заказа для Маши-26-02-002: 2
+[2026-02-18 07:33:38] INFO in order_service:980 - СТАТУС ЗАКАЗА для Маши-26-02-002 ИЗМЕНЕН НА design_completed
+[2026-02-18 07:33:38] INFO in notification_service:175 - ✅ Email успешно отправлен на admin@example.com: [Система] ✅ Разработка завершена: для Маши-26-02-002
+[2026-02-18 07:33:38] INFO in notification_service:175 - ✅ Email успешно отправлен на admin@example.com: [Система] ✅ Разработка завершена: для Маши-26-02-002
+[2026-02-18 07:33:38] INFO in notification_service:175 - ✅ Email успешно отправлен на mrush@mail.ru: [Система] ✅ Разработка завершена: для Маши-26-02-002
+[2026-02-18 07:33:38] INFO in notification_service:175 - ✅ Email успешно отправлен на mrush@mail.ru: [Система] ✅ Разработка завершена: для Маши-26-02-002
+[2026-02-18 07:33:38] INFO in notification_service:175 - ✅ Email успешно отправлен на zakazsnab.str@gmail.com: [Система] ✅ Разработка завершена: для Маши-26-02-002
+[2026-02-18 07:33:38] INFO in notification_service:175 - ✅ Email успешно отправлен на zakazsnab.str@gmail.com: [Система] ✅ Разработка завершена: для Маши-26-02-002
+[2026-02-18 07:33:38] INFO in notification_service:175 - ✅ Email успешно отправлен на oficce_team_fs@fsteam.ru: [Система] ✅ Разработка завершена: для Маши-26-02-002
+[2026-02-18 07:33:38] INFO in notification_service:175 - ✅ Email успешно отправлен на oficce_team_fs@fsteam.ru: [Система] ✅ Разработка завершена: для Маши-26-02-002
+[2026-02-18 07:35:48] INFO in order_service:1143 - === РАСЧЕТ СТАТИСТИКИ для пользователя 7 (head_supply) ===
+[2026-02-18 07:35:48] INFO in order_service:1178 - Фильтр: руководитель закупок, статусы: ['design_completed', 'purchase', 'purchase_completed']
+[2026-02-18 07:35:48] INFO in order_service:1211 - Найдено заказов: 1
+[2026-02-18 07:35:48] INFO in order_service:1310 - Статистика рассчитана: {'total': 1, 'new': 0, 'in_progress': 1, 'completed': 0, 'delivered': 0, 'reclamations': 0, 'overdue': 0, 'this_week': 1, 'this_month': 1, 'archived': 0}
+[2026-02-18 07:40:33] INFO in __init__:547 - 🛑 Планировщик задач остановлен
+[2026-02-18 07:40:50] INFO in __init__:236 - ✅ Логирование настроено профессионально
+[2026-02-18 07:40:50] INFO in __init__:237 - 📁 Основной лог: app_scheduler.log
+[2026-02-18 07:40:50] INFO in __init__:238 - 📁 Access лог: access.log
+[2026-02-18 07:40:50] INFO in __init__:239 - 📁 Ошибки: error.log
+[2026-02-18 07:40:50] INFO in __init__:240 - 🔧 Werkzeug уровень: INFO
+[2026-02-18 07:40:50] INFO in __init__:256 - ✅ Расширения Flask инициализированы
+[2026-02-18 07:40:50] INFO in __init__:272 - ✅ Blueprint'ы зарегистрированы
+[2026-02-18 07:40:50] INFO in __init__:319 - ✅ Таблицы базы данных созданы/проверены
+[2026-02-18 07:40:50] INFO in __init__:351 - ✅ Директории загрузок созданы: C:\Users\5\Desktop\production_system_v3_3\app\..\uploads
+[2026-02-18 07:40:50] INFO in __init__:362 - ✅ Проверка/создание администратора выполнена
+[2026-02-18 07:40:50] ERROR in __init__:375 - ❌ Ошибка инициализации настроек уведомлений: No module named 'app.services.notification_settings_service'
+[2026-02-18 07:40:50] INFO in __init__:514 - 📅 Запланировано 7 задач
+[2026-02-18 07:40:50] INFO in __init__:408 - ✅ Планировщик задач запущен
+[2026-02-18 07:40:50] INFO in __init__:532 - 📅 Запланировано 7 задач:
+[2026-02-18 07:40:50] INFO in __init__:538 -   • Проверка новых файлов спецификаций
+[2026-02-18 07:40:50] INFO in __init__:539 -     ID: check_specifications_job, Следующий запуск: 18.02.2026 11:00
+[2026-02-18 07:40:50] INFO in __init__:538 -   • Отправка ежедневной статистики
+[2026-02-18 07:40:50] INFO in __init__:539 -     ID: daily_statistics_job, Следующий запуск: 18.02.2026 18:00
+[2026-02-18 07:40:50] INFO in __init__:538 -   • Автоматическая архивация завершенных заказов
+[2026-02-18 07:40:50] INFO in __init__:539 -     ID: auto_archive_job, Следующий запуск: 19.02.2026 02:00
+[2026-02-18 07:40:50] INFO in __init__:538 -   • Проверка просроченных заказов
+[2026-02-18 07:40:50] INFO in __init__:539 -     ID: check_overdue_job, Следующий запуск: 19.02.2026 09:00
+[2026-02-18 07:40:50] INFO in __init__:538 -   • Проверка сроков готовности чертежей
+[2026-02-18 07:40:50] INFO in __init__:539 -     ID: check_design_dates_job, Следующий запуск: 19.02.2026 10:00
+[2026-02-18 07:40:50] INFO in __init__:538 -   • Очистка старых уведомлений
+[2026-02-18 07:40:50] INFO in __init__:539 -     ID: cleanup_notifications_job, Следующий запуск: 22.02.2026 03:00
+[2026-02-18 07:40:50] INFO in __init__:538 -   • Очистка старых заявок поставщикам
+[2026-02-18 07:40:50] INFO in __init__:539 -     ID: cleanup_supplier_requests_job, Следующий запуск: 22.02.2026 04:00
+[2026-02-18 07:40:50] INFO in __init__:333 - ✅ Приложение успешно инициализировано
+[2026-02-18 07:40:50] INFO in __init__:72 - Модуль договоров успешно зарегистрирован
+[2026-02-18 07:40:50] INFO in __init__:82 - ✅ Модуль парсера поставщиков успешно зарегистрирован
+[2026-02-18 07:41:35] INFO in order_service:1143 - === РАСЧЕТ СТАТИСТИКИ для пользователя 7 (head_supply) ===
+[2026-02-18 07:41:35] INFO in order_service:1178 - Фильтр: руководитель закупок, статусы: ['design_completed', 'purchase', 'purchase_completed']
+[2026-02-18 07:41:35] INFO in order_service:1211 - Найдено заказов: 1
+[2026-02-18 07:41:35] INFO in order_service:1310 - Статистика рассчитана: {'total': 1, 'new': 0, 'in_progress': 1, 'completed': 0, 'delivered': 0, 'reclamations': 0, 'overdue': 0, 'this_week': 1, 'this_month': 1, 'archived': 0}
+[2026-02-18 07:41:39] INFO in order_service:1143 - === РАСЧЕТ СТАТИСТИКИ для пользователя 7 (head_supply) ===
+[2026-02-18 07:41:39] INFO in order_service:1178 - Фильтр: руководитель закупок, статусы: ['design_completed', 'purchase', 'purchase_completed']
+[2026-02-18 07:41:39] INFO in order_service:1211 - Найдено заказов: 1
+[2026-02-18 07:41:39] INFO in order_service:1310 - Статистика рассчитана: {'total': 1, 'new': 0, 'in_progress': 1, 'completed': 0, 'delivered': 0, 'reclamations': 0, 'overdue': 0, 'this_week': 1, 'this_month': 1, 'archived': 0}
+[2026-02-18 07:41:58] INFO in order_service:1143 - === РАСЧЕТ СТАТИСТИКИ для пользователя 7 (head_supply) ===
+[2026-02-18 07:41:58] INFO in order_service:1178 - Фильтр: руководитель закупок, статусы: ['design_completed', 'purchase', 'purchase_completed']
+[2026-02-18 07:41:58] INFO in order_service:1211 - Найдено заказов: 1
+[2026-02-18 07:41:58] INFO in order_service:1310 - Статистика рассчитана: {'total': 1, 'new': 0, 'in_progress': 1, 'completed': 0, 'delivered': 0, 'reclamations': 0, 'overdue': 0, 'this_week': 1, 'this_month': 1, 'archived': 0}
+[2026-02-18 07:57:32] INFO in __init__:547 - 🛑 Планировщик задач остановлен
+[2026-02-18 07:57:43] INFO in __init__:236 - ✅ Логирование настроено профессионально
+[2026-02-18 07:57:43] INFO in __init__:237 - 📁 Основной лог: app_scheduler.log
+[2026-02-18 07:57:43] INFO in __init__:238 - 📁 Access лог: access.log
+[2026-02-18 07:57:43] INFO in __init__:239 - 📁 Ошибки: error.log
+[2026-02-18 07:57:43] INFO in __init__:240 - 🔧 Werkzeug уровень: INFO
+[2026-02-18 07:57:43] INFO in __init__:256 - ✅ Расширения Flask инициализированы
+[2026-02-18 07:57:43] INFO in __init__:272 - ✅ Blueprint'ы зарегистрированы
+[2026-02-18 07:57:43] INFO in __init__:319 - ✅ Таблицы базы данных созданы/проверены
+[2026-02-18 07:57:43] INFO in __init__:351 - ✅ Директории загрузок созданы: C:\Users\5\Desktop\production_system_v3_3\app\..\uploads
+[2026-02-18 07:57:43] INFO in __init__:362 - ✅ Проверка/создание администратора выполнена
+[2026-02-18 07:57:43] ERROR in __init__:375 - ❌ Ошибка инициализации настроек уведомлений: No module named 'app.services.notification_settings_service'
+[2026-02-18 07:57:43] INFO in __init__:514 - 📅 Запланировано 7 задач
+[2026-02-18 07:57:43] INFO in __init__:408 - ✅ Планировщик задач запущен
+[2026-02-18 07:57:43] INFO in __init__:532 - 📅 Запланировано 7 задач:
+[2026-02-18 07:57:43] INFO in __init__:538 -   • Проверка новых файлов спецификаций
+[2026-02-18 07:57:43] INFO in __init__:539 -     ID: check_specifications_job, Следующий запуск: 18.02.2026 11:00
+[2026-02-18 07:57:43] INFO in __init__:538 -   • Отправка ежедневной статистики
+[2026-02-18 07:57:43] INFO in __init__:539 -     ID: daily_statistics_job, Следующий запуск: 18.02.2026 18:00
+[2026-02-18 07:57:43] INFO in __init__:538 -   • Автоматическая архивация завершенных заказов
+[2026-02-18 07:57:43] INFO in __init__:539 -     ID: auto_archive_job, Следующий запуск: 19.02.2026 02:00
+[2026-02-18 07:57:43] INFO in __init__:538 -   • Проверка просроченных заказов
+[2026-02-18 07:57:43] INFO in __init__:539 -     ID: check_overdue_job, Следующий запуск: 19.02.2026 09:00
+[2026-02-18 07:57:43] INFO in __init__:538 -   • Проверка сроков готовности чертежей
+[2026-02-18 07:57:43] INFO in __init__:539 -     ID: check_design_dates_job, Следующий запуск: 19.02.2026 10:00
+[2026-02-18 07:57:43] INFO in __init__:538 -   • Очистка старых уведомлений
+[2026-02-18 07:57:43] INFO in __init__:539 -     ID: cleanup_notifications_job, Следующий запуск: 22.02.2026 03:00
+[2026-02-18 07:57:43] INFO in __init__:538 -   • Очистка старых заявок поставщикам
+[2026-02-18 07:57:43] INFO in __init__:539 -     ID: cleanup_supplier_requests_job, Следующий запуск: 22.02.2026 04:00
+[2026-02-18 07:57:43] INFO in __init__:333 - ✅ Приложение успешно инициализировано
+[2026-02-18 07:57:43] INFO in __init__:72 - Модуль договоров успешно зарегистрирован
+[2026-02-18 07:57:43] INFO in __init__:82 - ✅ Модуль парсера поставщиков успешно зарегистрирован
+[2026-02-18 07:58:02] INFO in notification_service:265 - Создано уведомление ID 140: comment_added для пользователя Офис
+[2026-02-18 07:58:02] INFO in notification_service:384 - Email отправлен oficce_team_fs@fsteam.ru
+[2026-02-18 07:58:02] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:58:02] INFO in notification_service:265 - Создано уведомление ID 141: comment_added для пользователя Рушан Мустакимов
+[2026-02-18 07:58:02] INFO in notification_service:384 - Email отправлен rushan.ufa@gmail.com
+[2026-02-18 07:58:02] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:58:02] INFO in notification_service:435 - Создано 2 уведомлений типа 'comment_added'
+[2026-02-18 07:58:03] INFO in notification_service:175 - ✅ Email успешно отправлен на oficce_team_fs@fsteam.ru: [Система] Новый комментарий: для Маши-26-02-002
+[2026-02-18 07:58:03] INFO in notification_service:175 - ✅ Email успешно отправлен на oficce_team_fs@fsteam.ru: [Система] Новый комментарий: для Маши-26-02-002
+[2026-02-18 07:58:03] INFO in notification_service:175 - ✅ Email успешно отправлен на rushan.ufa@gmail.com: [Система] Новый комментарий: для Маши-26-02-002
+[2026-02-18 07:58:03] INFO in notification_service:175 - ✅ Email успешно отправлен на rushan.ufa@gmail.com: [Система] Новый комментарий: для Маши-26-02-002
+[2026-02-18 08:00:00] INFO in supplier_parser_tasks:61 - Запуск периодической проверки файлов спецификаций
+[2026-02-18 08:00:00] INFO in supplier_parser_tasks:74 - Найдено 4 файлов для проверки
+[2026-02-18 08:00:00] INFO in supplier_parser_tasks:99 - Обработка заказа 08-26Е-26-02-002
+[2026-02-18 08:00:00] INFO in supplier_parser_integration:35 - === НАЧАЛО process_order_files для заказа 23 ===
+[2026-02-18 08:00:00] INFO in supplier_parser_integration:36 - Поиск Excel-файлов в заказе...
+[2026-02-18 08:00:00] INFO in supplier_parser_integration:45 - Начинаем обработку файлов для заказа 08-26Е-26-02-002
+[2026-02-18 08:00:00] INFO in supplier_parser_integration:67 - Нет Excel-файлов для обработки в заказе 08-26Е-26-02-002
+[2026-02-18 08:00:00] INFO in supplier_parser_tasks:99 - Обработка заказа 09-26Е-26-02-002
+[2026-02-18 08:00:00] INFO in supplier_parser_integration:35 - === НАЧАЛО process_order_files для заказа 24 ===
+[2026-02-18 08:00:00] INFO in supplier_parser_integration:36 - Поиск Excel-файлов в заказе...
+[2026-02-18 08:00:00] INFO in supplier_parser_integration:45 - Начинаем обработку файлов для заказа 09-26Е-26-02-002
+[2026-02-18 08:00:00] INFO in supplier_parser_integration:67 - Нет Excel-файлов для обработки в заказе 09-26Е-26-02-002
+[2026-02-18 08:00:00] INFO in supplier_parser_tasks:99 - Обработка заказа для Маши-26-02-002
+[2026-02-18 08:00:00] INFO in supplier_parser_integration:35 - === НАЧАЛО process_order_files для заказа 25 ===
+[2026-02-18 08:00:00] INFO in supplier_parser_integration:36 - Поиск Excel-файлов в заказе...
+[2026-02-18 08:00:00] INFO in supplier_parser_integration:45 - Начинаем обработку файлов для заказа для Маши-26-02-002
+[2026-02-18 08:00:00] INFO in supplier_parser_integration:71 - Найдено 1 Excel-файлов для обработки
+[2026-02-18 08:00:00] INFO in generator:293 - Обработка заказа для Маши-26-02-002: всего строк 24, найдено совпадений 0
+[2026-02-18 08:00:00] INFO in supplier_parser_tasks:106 - Обработано заказов: 3
+[2026-02-18 08:00:00] INFO in __init__:522 - ✅ process_pending_specifications: 3
+[2026-02-18 08:00:01] INFO in order_service:1143 - === РАСЧЕТ СТАТИСТИКИ для пользователя 1 (admin) ===
+[2026-02-18 08:00:01] INFO in order_service:1200 - Фильтр: администратор (без фильтрации)
+[2026-02-18 08:00:01] INFO in order_service:1211 - Найдено заказов: 7
+[2026-02-18 08:00:01] INFO in order_service:1310 - Статистика рассчитана: {'total': 7, 'new': 0, 'in_progress': 7, 'completed': 0, 'delivered': 0, 'reclamations': 0, 'overdue': 0, 'this_week': 6, 'this_month': 7, 'archived': 0}
+[2026-02-18 08:02:05] INFO in order_service:1143 - === РАСЧЕТ СТАТИСТИКИ для пользователя 1 (admin) ===
+[2026-02-18 08:02:05] INFO in order_service:1200 - Фильтр: администратор (без фильтрации)
+[2026-02-18 08:02:05] INFO in order_service:1211 - Найдено заказов: 7
+[2026-02-18 08:02:05] INFO in order_service:1310 - Статистика рассчитана: {'total': 7, 'new': 0, 'in_progress': 7, 'completed': 0, 'delivered': 0, 'reclamations': 0, 'overdue': 0, 'this_week': 6, 'this_month': 7, 'archived': 0}
+[2026-02-18 08:18:53] INFO in order_service:1143 - === РАСЧЕТ СТАТИСТИКИ для пользователя 2 (designer) ===
+[2026-02-18 08:18:53] INFO in order_service:1170 - Фильтр: конструктор 2
+[2026-02-18 08:18:53] INFO in order_service:1211 - Найдено заказов: 1
+[2026-02-18 08:18:53] INFO in order_service:1310 - Статистика рассчитана: {'total': 1, 'new': 0, 'in_progress': 1, 'completed': 0, 'delivered': 0, 'reclamations': 0, 'overdue': 0, 'this_week': 1, 'this_month': 1, 'archived': 0}
+[2026-02-18 08:19:07] ERROR in file_service:277 - Ошибка удаления файла 4272e7a3_Спецификация на закупку Касперович.xlsx: [WinError 32] Процесс не может получить доступ к файлу, так как этот файл занят другим процессом: 'C:\\Users\\5\\Desktop\\production_system_v3_3\\app\\..\\uploads/orders/для Маши-26-02-002/design/4272e7a3_Спецификация на закупку Касперович.xlsx'
+[2026-02-18 08:19:18] ERROR in file_service:277 - Ошибка удаления файла 4272e7a3_Спецификация на закупку Касперович.xlsx: [WinError 32] Процесс не может получить доступ к файлу, так как этот файл занят другим процессом: 'C:\\Users\\5\\Desktop\\production_system_v3_3\\app\\..\\uploads/orders/для Маши-26-02-002/design/4272e7a3_Спецификация на закупку Касперович.xlsx'
+[2026-02-18 08:19:57] ERROR in file_service:277 - Ошибка удаления файла 4272e7a3_Спецификация на закупку Касперович.xlsx: [WinError 32] Процесс не может получить доступ к файлу, так как этот файл занят другим процессом: 'C:\\Users\\5\\Desktop\\production_system_v3_3\\app\\..\\uploads/orders/для Маши-26-02-002/design/4272e7a3_Спецификация на закупку Касперович.xlsx'
+[2026-02-18 08:20:10] INFO in order_service:1143 - === РАСЧЕТ СТАТИСТИКИ для пользователя 1 (admin) ===
+[2026-02-18 08:20:12] INFO in order_service:1143 - === РАСЧЕТ СТАТИСТИКИ для пользователя 1 (admin) ===
+[2026-02-18 08:20:16] INFO in order_service:1200 - Фильтр: администратор (без фильтрации)
+[2026-02-18 08:20:16] INFO in order_service:1200 - Фильтр: администратор (без фильтрации)
+[2026-02-18 08:20:16] INFO in order_service:1211 - Найдено заказов: 7
+[2026-02-18 08:20:16] INFO in order_service:1211 - Найдено заказов: 7
+[2026-02-18 08:20:16] INFO in order_service:1310 - Статистика рассчитана: {'total': 7, 'new': 0, 'in_progress': 7, 'completed': 0, 'delivered': 0, 'reclamations': 0, 'overdue': 0, 'this_week': 6, 'this_month': 7, 'archived': 0}
+[2026-02-18 08:20:16] INFO in order_service:1310 - Статистика рассчитана: {'total': 7, 'new': 0, 'in_progress': 7, 'completed': 0, 'delivered': 0, 'reclamations': 0, 'overdue': 0, 'this_week': 6, 'this_month': 7, 'archived': 0}
+[2026-02-18 08:20:24] ERROR in file_service:277 - Ошибка удаления файла 4272e7a3_Спецификация на закупку Касперович.xlsx: [WinError 32] Процесс не может получить доступ к файлу, так как этот файл занят другим процессом: 'C:\\Users\\5\\Desktop\\production_system_v3_3\\app\\..\\uploads/orders/для Маши-26-02-002/design/4272e7a3_Спецификация на закупку Касперович.xlsx'
+[2026-02-18 08:20:56] ERROR in file_service:277 - Ошибка удаления файла 4272e7a3_Спецификация на закупку Касперович.xlsx: [WinError 32] Процесс не может получить доступ к файлу, так как этот файл занят другим процессом: 'C:\\Users\\5\\Desktop\\production_system_v3_3\\app\\..\\uploads/orders/для Маши-26-02-002/design/4272e7a3_Спецификация на закупку Касперович.xlsx'
+[2026-02-18 08:21:09] ERROR in app:825 - Exception on /contracts/download/10 [GET]
+Traceback (most recent call last):
+  File "C:\Users\5\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask_login\utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\Desktop\production_system_v3_3\app\modules\contracts\routes.py", line 671, in download_contract
+    from docx import Document
+ModuleNotFoundError: No module named 'docx'
+[2026-02-18 08:21:25] INFO in order_service:1143 - === РАСЧЕТ СТАТИСТИКИ для пользователя 2 (designer) ===
+[2026-02-18 08:21:25] INFO in order_service:1170 - Фильтр: конструктор 2
+[2026-02-18 08:21:25] INFO in order_service:1211 - Найдено заказов: 1
+[2026-02-18 08:21:25] INFO in order_service:1310 - Статистика рассчитана: {'total': 1, 'new': 0, 'in_progress': 1, 'completed': 0, 'delivered': 0, 'reclamations': 0, 'overdue': 0, 'this_week': 1, 'this_month': 1, 'archived': 0}
+[2026-02-18 08:21:29] INFO in order_service:1143 - === РАСЧЕТ СТАТИСТИКИ для пользователя 1 (admin) ===
+[2026-02-18 08:21:29] INFO in order_service:1200 - Фильтр: администратор (без фильтрации)
+[2026-02-18 08:21:29] INFO in order_service:1211 - Найдено заказов: 7
+[2026-02-18 08:21:29] INFO in order_service:1310 - Статистика рассчитана: {'total': 7, 'new': 0, 'in_progress': 7, 'completed': 0, 'delivered': 0, 'reclamations': 0, 'overdue': 0, 'this_week': 6, 'this_month': 7, 'archived': 0}
+[2026-02-18 08:21:43] INFO in order_service:1010 - get_orders_for_user: user=2, status_filter=all, search=''
+[2026-02-18 08:21:43] INFO in order_service:1024 - Фильтр: конструктор 2
+[2026-02-18 08:21:43] INFO in order_service:1078 - Найдено заказов: 1
+[2026-02-18 08:22:54] ERROR in file_service:277 - Ошибка удаления файла 4272e7a3_Спецификация на закупку Касперович.xlsx: [WinError 32] Процесс не может получить доступ к файлу, так как этот файл занят другим процессом: 'C:\\Users\\5\\Desktop\\production_system_v3_3\\app\\..\\uploads/orders/для Маши-26-02-002/design/4272e7a3_Спецификация на закупку Касперович.xlsx'
+[2026-02-18 08:23:29] INFO in file_service:84 - 📁 Сохранение файла: Спецификация на закупку Касперович.xlsx, тип: design, пользователь: admin, роль: admin
+[2026-02-18 08:23:29] INFO in file_service:110 - Файл сохранен: C:\Users\5\Desktop\production_system_v3_3\app\..\uploads/orders/для Маши-26-02-002/design/e4561395_Спецификация на закупку Касперович.xlsx
+[2026-02-18 08:23:29] INFO in file_service:115 - 🔍 Проверка условий для парсера: file_type=design, user_role=admin, extension=True
+[2026-02-18 08:23:29] INFO in file_service:132 - Запуск парсера для файла Спецификация на закупку Касперович.xlsx
+[2026-02-18 08:23:29] INFO in file_service:144 - Парсер запущен в фоне для заказа для Маши-26-02-002
+[2026-02-18 08:23:29] INFO in file_service:168 - Файл добавлен в БД: Спецификация на закупку Касперович.xlsx
+[2026-02-18 08:23:29] INFO in notification_service:265 - Создано уведомление ID 142: file_uploaded для пользователя Офис
+[2026-02-18 08:23:29] INFO in notification_service:384 - Email отправлен oficce_team_fs@fsteam.ru
+[2026-02-18 08:23:29] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 08:23:30] INFO in notification_service:175 - ✅ Email успешно отправлен на oficce_team_fs@fsteam.ru: [Система] Загружен файл: Спецификация на закупку Касперович.xlsx
+[2026-02-18 08:23:30] INFO in notification_service:175 - ✅ Email успешно отправлен на oficce_team_fs@fsteam.ru: [Система] Загружен файл: Спецификация на закупку Касперович.xlsx
+[2026-02-18 08:23:45] ERROR in file_service:277 - Ошибка удаления файла 4272e7a3_Спецификация на закупку Касперович.xlsx: [WinError 32] Процесс не может получить доступ к файлу, так как этот файл занят другим процессом: 'C:\\Users\\5\\Desktop\\production_system_v3_3\\app\\..\\uploads/orders/для Маши-26-02-002/design/4272e7a3_Спецификация на закупку Касперович.xlsx'
+[2026-02-18 08:24:00] ERROR in app:825 - Exception on /admin/system/logs [GET]
+Traceback (most recent call last):
+  File "C:\Users\5\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask_login\utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\Desktop\production_system_v3_3\app\permissions.py", line 166, in decorated_function
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\Desktop\production_system_v3_3\app\admin.py", line 415, in system_logs
+    return render_template('admin/logs.html', logs=reversed(logs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\templating.py", line 152, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\templating.py", line 133, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\AppData\Local\Programs\Python\Python312\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+  File "C:\Users\5\AppData\Local\Programs\Python\Python312\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\5\Desktop\production_system_v3_3\app\templates\admin\logs.html", line 2, in top-level template code
+    {% extends "base.html" %}
+  File "C:\Users\5\Desktop\production_system_v3_3\app\templates\base.html", line 798, in top-level template code
+    {% block content %}{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\Desktop\production_system_v3_3\app\templates\admin\logs.html", line 289, in block 'content'
+    <i class="bi bi-list me-1"></i>Записей: {{ logs|length }}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: object of type 'list_reverseiterator' has no len()
+[2026-02-18 08:24:11] INFO in order_service:1010 - get_orders_for_user: user=1, status_filter=all, search=''
+[2026-02-18 08:24:11] INFO in order_service:1054 - Фильтр: администратор (без фильтрации)
+[2026-02-18 08:24:11] INFO in order_service:1078 - Найдено заказов: 7
+[2026-02-18 08:24:17] ERROR in file_service:277 - Ошибка удаления файла 4272e7a3_Спецификация на закупку Касперович.xlsx: [WinError 32] Процесс не может получить доступ к файлу, так как этот файл занят другим процессом: 'C:\\Users\\5\\Desktop\\production_system_v3_3\\app\\..\\uploads/orders/для Маши-26-02-002/design/4272e7a3_Спецификация на закупку Касперович.xlsx'
+[2026-02-18 08:27:33] ERROR in file_service:277 - Ошибка удаления файла 4272e7a3_Спецификация на закупку Касперович.xlsx: [WinError 32] Процесс не может получить доступ к файлу, так как этот файл занят другим процессом: 'C:\\Users\\5\\Desktop\\production_system_v3_3\\app\\..\\uploads/orders/для Маши-26-02-002/design/4272e7a3_Спецификация на закупку Касперович.xlsx'
+[2026-02-18 08:27:50] INFO in __init__:547 - 🛑 Планировщик задач остановлен
+[2026-02-18 08:28:06] INFO in __init__:236 - ✅ Логирование настроено профессионально
+[2026-02-18 08:28:06] INFO in __init__:237 - 📁 Основной лог: app_scheduler.log
+[2026-02-18 08:28:06] INFO in __init__:238 - 📁 Access лог: access.log
+[2026-02-18 08:28:06] INFO in __init__:239 - 📁 Ошибки: error.log
+[2026-02-18 08:28:06] INFO in __init__:240 - 🔧 Werkzeug уровень: INFO
+[2026-02-18 08:28:06] INFO in __init__:256 - ✅ Расширения Flask инициализированы
+[2026-02-18 08:28:06] INFO in __init__:272 - ✅ Blueprint'ы зарегистрированы
+[2026-02-18 08:28:06] INFO in __init__:319 - ✅ Таблицы базы данных созданы/проверены
+[2026-02-18 08:28:06] INFO in __init__:351 - ✅ Директории загрузок созданы: C:\Users\5\Desktop\production_system_v3_3\app\..\uploads
+[2026-02-18 08:28:06] INFO in __init__:362 - ✅ Проверка/создание администратора выполнена
+[2026-02-18 08:28:06] ERROR in __init__:375 - ❌ Ошибка инициализации настроек уведомлений: No module named 'app.services.notification_settings_service'
+[2026-02-18 08:28:07] INFO in __init__:514 - 📅 Запланировано 7 задач
+[2026-02-18 08:28:07] INFO in __init__:408 - ✅ Планировщик задач запущен
+[2026-02-18 08:28:07] INFO in __init__:532 - 📅 Запланировано 7 задач:
+[2026-02-18 08:28:07] INFO in __init__:538 -   • Проверка новых файлов спецификаций
+[2026-02-18 08:28:07] INFO in __init__:539 -     ID: check_specifications_job, Следующий запуск: 18.02.2026 11:30
+[2026-02-18 08:28:07] INFO in __init__:538 -   • Отправка ежедневной статистики
+[2026-02-18 08:28:07] INFO in __init__:539 -     ID: daily_statistics_job, Следующий запуск: 18.02.2026 18:00
+[2026-02-18 08:28:07] INFO in __init__:538 -   • Автоматическая архивация завершенных заказов
+[2026-02-18 08:28:07] INFO in __init__:539 -     ID: auto_archive_job, Следующий запуск: 19.02.2026 02:00
+[2026-02-18 08:28:07] INFO in __init__:538 -   • Проверка просроченных заказов
+[2026-02-18 08:28:07] INFO in __init__:539 -     ID: check_overdue_job, Следующий запуск: 19.02.2026 09:00
+[2026-02-18 08:28:07] INFO in __init__:538 -   • Проверка сроков готовности чертежей
+[2026-02-18 08:28:07] INFO in __init__:539 -     ID: check_design_dates_job, Следующий запуск: 19.02.2026 10:00
+[2026-02-18 08:28:07] INFO in __init__:538 -   • Очистка старых уведомлений
+[2026-02-18 08:28:07] INFO in __init__:539 -     ID: cleanup_notifications_job, Следующий запуск: 22.02.2026 03:00
+[2026-02-18 08:28:07] INFO in __init__:538 -   • Очистка старых заявок поставщикам
+[2026-02-18 08:28:07] INFO in __init__:539 -     ID: cleanup_supplier_requests_job, Следующий запуск: 22.02.2026 04:00
+[2026-02-18 08:28:07] INFO in __init__:333 - ✅ Приложение успешно инициализировано
+[2026-02-18 08:28:07] INFO in __init__:72 - Модуль договоров успешно зарегистрирован
+[2026-02-18 08:28:07] INFO in __init__:82 - ✅ Модуль парсера поставщиков успешно зарегистрирован
+[2026-02-18 08:30:00] INFO in supplier_parser_tasks:61 - Запуск периодической проверки файлов спецификаций
+[2026-02-18 08:30:00] INFO in supplier_parser_tasks:74 - Найдено 3 файлов для проверки
+[2026-02-18 08:30:00] INFO in supplier_parser_tasks:99 - Обработка заказа 08-26Е-26-02-002
+[2026-02-18 08:30:00] INFO in supplier_parser_integration:35 - === НАЧАЛО process_order_files для заказа 23 ===
+[2026-02-18 08:30:00] INFO in supplier_parser_integration:36 - Поиск Excel-файлов в заказе...
+[2026-02-18 08:30:00] INFO in supplier_parser_integration:45 - Начинаем обработку файлов для заказа 08-26Е-26-02-002
+[2026-02-18 08:30:00] INFO in supplier_parser_integration:67 - Нет Excel-файлов для обработки в заказе 08-26Е-26-02-002
+[2026-02-18 08:30:00] INFO in supplier_parser_tasks:99 - Обработка заказа 09-26Е-26-02-002
+[2026-02-18 08:30:00] INFO in supplier_parser_integration:35 - === НАЧАЛО process_order_files для заказа 24 ===
+[2026-02-18 08:30:00] INFO in supplier_parser_integration:36 - Поиск Excel-файлов в заказе...
+[2026-02-18 08:30:00] INFO in supplier_parser_integration:45 - Начинаем обработку файлов для заказа 09-26Е-26-02-002
+[2026-02-18 08:30:00] INFO in supplier_parser_integration:67 - Нет Excel-файлов для обработки в заказе 09-26Е-26-02-002
+[2026-02-18 08:30:00] INFO in supplier_parser_tasks:99 - Обработка заказа для Маши-26-02-002
+[2026-02-18 08:30:00] INFO in supplier_parser_integration:35 - === НАЧАЛО process_order_files для заказа 25 ===
+[2026-02-18 08:30:00] INFO in supplier_parser_integration:36 - Поиск Excel-файлов в заказе...
+[2026-02-18 08:30:00] INFO in supplier_parser_integration:45 - Начинаем обработку файлов для заказа для Маши-26-02-002
+[2026-02-18 08:30:00] INFO in supplier_parser_integration:71 - Найдено 1 Excel-файлов для обработки
+[2026-02-18 08:30:00] INFO in generator:293 - Обработка заказа для Маши-26-02-002: всего строк 24, найдено совпадений 0
+[2026-02-18 08:30:00] INFO in supplier_parser_tasks:106 - Обработано заказов: 3
+[2026-02-18 08:30:00] INFO in __init__:522 - ✅ process_pending_specifications: 3
+[2026-02-18 08:30:13] INFO in __init__:547 - 🛑 Планировщик задач остановлен
+[2026-02-18 08:30:22] INFO in __init__:236 - ✅ Логирование настроено профессионально
+[2026-02-18 08:30:22] INFO in __init__:237 - 📁 Основной лог: app_scheduler.log
+[2026-02-18 08:30:22] INFO in __init__:238 - 📁 Access лог: access.log
+[2026-02-18 08:30:22] INFO in __init__:239 - 📁 Ошибки: error.log
+[2026-02-18 08:30:22] INFO in __init__:240 - 🔧 Werkzeug уровень: INFO
+[2026-02-18 08:30:22] INFO in __init__:256 - ✅ Расширения Flask инициализированы
+[2026-02-18 08:30:22] INFO in __init__:272 - ✅ Blueprint'ы зарегистрированы
+[2026-02-18 08:30:22] INFO in __init__:319 - ✅ Таблицы базы данных созданы/проверены
+[2026-02-18 08:30:22] INFO in __init__:351 - ✅ Директории загрузок созданы: C:\Users\5\Desktop\production_system_v3_3\app\..\uploads
+[2026-02-18 08:30:22] INFO in __init__:362 - ✅ Проверка/создание администратора выполнена
+[2026-02-18 08:30:22] ERROR in __init__:375 - ❌ Ошибка инициализации настроек уведомлений: No module named 'app.services.notification_settings_service'
+[2026-02-18 08:30:23] INFO in __init__:514 - 📅 Запланировано 7 задач
+[2026-02-18 08:30:23] INFO in __init__:408 - ✅ Планировщик задач запущен
+[2026-02-18 08:30:23] INFO in __init__:532 - 📅 Запланировано 7 задач:
+[2026-02-18 08:30:23] INFO in __init__:538 -   • Проверка новых файлов спецификаций
+[2026-02-18 08:30:23] INFO in __init__:539 -     ID: check_specifications_job, Следующий запуск: 18.02.2026 12:00
+[2026-02-18 08:30:23] INFO in __init__:538 -   • Отправка ежедневной статистики
+[2026-02-18 08:30:23] INFO in __init__:539 -     ID: daily_statistics_job, Следующий запуск: 18.02.2026 18:00
+[2026-02-18 08:30:23] INFO in __init__:538 -   • Автоматическая архивация завершенных заказов
+[2026-02-18 08:30:23] INFO in __init__:539 -     ID: auto_archive_job, Следующий запуск: 19.02.2026 02:00
+[2026-02-18 08:30:23] INFO in __init__:538 -   • Проверка просроченных заказов
+[2026-02-18 08:30:23] INFO in __init__:539 -     ID: check_overdue_job, Следующий запуск: 19.02.2026 09:00
+[2026-02-18 08:30:23] INFO in __init__:538 -   • Проверка сроков готовности чертежей
+[2026-02-18 08:30:23] INFO in __init__:539 -     ID: check_design_dates_job, Следующий запуск: 19.02.2026 10:00
+[2026-02-18 08:30:23] INFO in __init__:538 -   • Очистка старых уведомлений
+[2026-02-18 08:30:23] INFO in __init__:539 -     ID: cleanup_notifications_job, Следующий запуск: 22.02.2026 03:00
+[2026-02-18 08:30:23] INFO in __init__:538 -   • Очистка старых заявок поставщикам
+[2026-02-18 08:30:23] INFO in __init__:539 -     ID: cleanup_supplier_requests_job, Следующий запуск: 22.02.2026 04:00
+[2026-02-18 08:30:23] INFO in __init__:333 - ✅ Приложение успешно инициализировано
+[2026-02-18 08:30:23] INFO in __init__:72 - Модуль договоров успешно зарегистрирован
+[2026-02-18 08:30:23] INFO in __init__:82 - Модуль парсера поставщиков успешно зарегистрирован
+[2026-02-18 08:31:30] INFO in file_service:84 - 📁 Сохранение файла: Спецификация на закупку Касперович.xlsx, тип: design, пользователь: admin, роль: admin
+[2026-02-18 08:31:30] INFO in file_service:110 - Файл сохранен: C:\Users\5\Desktop\production_system_v3_3\app\..\uploads/orders/для Маши-26-02-002/design/122567c5_Спецификация на закупку Касперович.xlsx
+[2026-02-18 08:31:30] INFO in file_service:115 - 🔍 Проверка условий для парсера: file_type=design, user_role=admin, extension=True
+[2026-02-18 08:31:30] INFO in file_service:132 - Запуск парсера для файла Спецификация на закупку Касперович.xlsx
+[2026-02-18 08:31:30] INFO in file_service:144 - Парсер запущен в фоне для заказа для Маши-26-02-002
+[2026-02-18 08:31:30] INFO in file_service:168 - Файл добавлен в БД: Спецификация на закупку Касперович.xlsx
+[2026-02-18 08:31:30] INFO in notification_service:265 - Создано уведомление ID 143: file_uploaded для пользователя Офис
+[2026-02-18 08:31:30] INFO in notification_service:384 - Email отправлен oficce_team_fs@fsteam.ru
+[2026-02-18 08:31:30] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 08:31:30] INFO in notification_service:175 - ✅ Email успешно отправлен на oficce_team_fs@fsteam.ru: [Система] Загружен файл: Спецификация на закупку Касперович.xlsx
+[2026-02-18 08:31:30] INFO in notification_service:175 - ✅ Email успешно отправлен на oficce_team_fs@fsteam.ru: [Система] Загружен файл: Спецификация на закупку Касперович.xlsx
+[2026-02-18 08:32:29] INFO in order_service:1010 - get_orders_for_user: user=1, status_filter=all, search=''
+[2026-02-18 08:32:29] INFO in order_service:1054 - Фильтр: администратор (без фильтрации)
+[2026-02-18 08:32:29] INFO in order_service:1078 - Найдено заказов: 7
+[2026-02-18 08:33:32] INFO in order_service:1143 - === РАСЧЕТ СТАТИСТИКИ для пользователя 1 (admin) ===
+[2026-02-18 08:33:32] INFO in order_service:1200 - Фильтр: администратор (без фильтрации)
+[2026-02-18 08:33:32] INFO in order_service:1211 - Найдено заказов: 7
+[2026-02-18 08:33:32] INFO in order_service:1310 - Статистика рассчитана: {'total': 7, 'new': 0, 'in_progress': 7, 'completed': 0, 'delivered': 0, 'reclamations': 0, 'overdue': 0, 'this_week': 6, 'this_month': 7, 'archived': 0}
+[2026-02-18 09:00:00] INFO in supplier_parser_tasks:61 - Запуск периодической проверки файлов спецификаций
+[2026-02-18 09:00:00] INFO in supplier_parser_tasks:74 - Найдено 3 файлов для проверки
+[2026-02-18 09:00:00] INFO in supplier_parser_tasks:99 - Обработка заказа 08-26Е-26-02-002
+[2026-02-18 09:00:00] INFO in supplier_parser_integration:35 - === НАЧАЛО process_order_files для заказа 23 ===
+[2026-02-18 09:00:00] INFO in supplier_parser_integration:36 - Поиск Excel-файлов в заказе...
+[2026-02-18 09:00:00] INFO in supplier_parser_integration:45 - Начинаем обработку файлов для заказа 08-26Е-26-02-002
+[2026-02-18 09:00:00] INFO in supplier_parser_integration:67 - Нет Excel-файлов для обработки в заказе 08-26Е-26-02-002
+[2026-02-18 09:00:00] INFO in supplier_parser_tasks:99 - Обработка заказа 09-26Е-26-02-002
+[2026-02-18 09:00:00] INFO in supplier_parser_integration:35 - === НАЧАЛО process_order_files для заказа 24 ===
+[2026-02-18 09:00:00] INFO in supplier_parser_integration:36 - Поиск Excel-файлов в заказе...
+[2026-02-18 09:00:00] INFO in supplier_parser_integration:45 - Начинаем обработку файлов для заказа 09-26Е-26-02-002
+[2026-02-18 09:00:00] INFO in supplier_parser_integration:67 - Нет Excel-файлов для обработки в заказе 09-26Е-26-02-002
+[2026-02-18 09:00:00] INFO in supplier_parser_tasks:99 - Обработка заказа для Маши-26-02-002
+[2026-02-18 09:00:00] INFO in supplier_parser_integration:35 - === НАЧАЛО process_order_files для заказа 25 ===
+[2026-02-18 09:00:00] INFO in supplier_parser_integration:36 - Поиск Excel-файлов в заказе...
+[2026-02-18 09:00:00] INFO in supplier_parser_integration:45 - Начинаем обработку файлов для заказа для Маши-26-02-002
+[2026-02-18 09:00:00] INFO in supplier_parser_integration:71 - Найдено 1 Excel-файлов для обработки
+[2026-02-18 09:00:00] INFO in generator:293 - Обработка заказа для Маши-26-02-002: всего строк 24, найдено совпадений 0
+[2026-02-18 09:00:00] INFO in supplier_parser_tasks:106 - Обработано заказов: 3
+[2026-02-18 09:00:00] INFO in __init__:522 - ✅ process_pending_specifications: 3

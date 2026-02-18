@@ -1,0 +1,176 @@
+[2026-02-18 07:00:00] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:00:47] ERROR in __init__:375 - ❌ Ошибка инициализации настроек уведомлений: No module named 'app.services.notification_settings_service'
+[2026-02-18 07:18:45] ERROR in __init__:375 - ❌ Ошибка инициализации настроек уведомлений: No module named 'app.services.notification_settings_service'
+[2026-02-18 07:20:05] ERROR in app:825 - Exception on /admin/system/logs [GET]
+Traceback (most recent call last):
+  File "C:\Users\5\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask_login\utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\Desktop\production_system_v3_3\app\permissions.py", line 166, in decorated_function
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\Desktop\production_system_v3_3\app\admin.py", line 415, in system_logs
+    return render_template('admin/logs.html', logs=reversed(logs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\templating.py", line 152, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\templating.py", line 133, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\AppData\Local\Programs\Python\Python312\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+  File "C:\Users\5\AppData\Local\Programs\Python\Python312\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\5\Desktop\production_system_v3_3\app\templates\admin\logs.html", line 2, in top-level template code
+    {% extends "base.html" %}
+  File "C:\Users\5\Desktop\production_system_v3_3\app\templates\base.html", line 809, in top-level template code
+    {% block content %}{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\Desktop\production_system_v3_3\app\templates\admin\logs.html", line 289, in block 'content'
+    <i class="bi bi-list me-1"></i>Записей: {{ logs|length }}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: object of type 'list_reverseiterator' has no len()
+[2026-02-18 07:26:31] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:26:31] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:26:31] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:26:31] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:26:31] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:26:32] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:26:32] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:26:32] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:26:58] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:27:26] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:27:26] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:27:26] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:27:26] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:27:52] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:29:25] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:29:25] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:29:25] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:29:25] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:29:25] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:30:15] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:30:15] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:30:15] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:30:15] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:30:15] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:30:15] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:30:15] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:30:15] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:30:15] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:30:15] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:31:33] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:31:33] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:31:34] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:31:34] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:31:34] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:31:46] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:31:46] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:31:46] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:32:31] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:33:36] ERROR in order_service:942 - Ошибка при обработке раннего завершения: NotificationService.create_notification() got an unexpected keyword argument 'details'
+Traceback (most recent call last):
+  File "C:\Users\5\Desktop\production_system_v3_3\app\services\order_service.py", line 932, in change_order_status
+    NotificationService.create_notification(
+TypeError: NotificationService.create_notification() got an unexpected keyword argument 'details'
+[2026-02-18 07:33:36] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:33:36] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:33:36] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:33:36] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:33:36] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:33:37] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:33:37] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:33:37] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:33:37] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:40:50] ERROR in __init__:375 - ❌ Ошибка инициализации настроек уведомлений: No module named 'app.services.notification_settings_service'
+[2026-02-18 07:57:43] ERROR in __init__:375 - ❌ Ошибка инициализации настроек уведомлений: No module named 'app.services.notification_settings_service'
+[2026-02-18 07:58:02] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 07:58:02] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 08:19:07] ERROR in file_service:277 - Ошибка удаления файла 4272e7a3_Спецификация на закупку Касперович.xlsx: [WinError 32] Процесс не может получить доступ к файлу, так как этот файл занят другим процессом: 'C:\\Users\\5\\Desktop\\production_system_v3_3\\app\\..\\uploads/orders/для Маши-26-02-002/design/4272e7a3_Спецификация на закупку Касперович.xlsx'
+[2026-02-18 08:19:18] ERROR in file_service:277 - Ошибка удаления файла 4272e7a3_Спецификация на закупку Касперович.xlsx: [WinError 32] Процесс не может получить доступ к файлу, так как этот файл занят другим процессом: 'C:\\Users\\5\\Desktop\\production_system_v3_3\\app\\..\\uploads/orders/для Маши-26-02-002/design/4272e7a3_Спецификация на закупку Касперович.xlsx'
+[2026-02-18 08:19:57] ERROR in file_service:277 - Ошибка удаления файла 4272e7a3_Спецификация на закупку Касперович.xlsx: [WinError 32] Процесс не может получить доступ к файлу, так как этот файл занят другим процессом: 'C:\\Users\\5\\Desktop\\production_system_v3_3\\app\\..\\uploads/orders/для Маши-26-02-002/design/4272e7a3_Спецификация на закупку Касперович.xlsx'
+[2026-02-18 08:20:24] ERROR in file_service:277 - Ошибка удаления файла 4272e7a3_Спецификация на закупку Касперович.xlsx: [WinError 32] Процесс не может получить доступ к файлу, так как этот файл занят другим процессом: 'C:\\Users\\5\\Desktop\\production_system_v3_3\\app\\..\\uploads/orders/для Маши-26-02-002/design/4272e7a3_Спецификация на закупку Касперович.xlsx'
+[2026-02-18 08:20:56] ERROR in file_service:277 - Ошибка удаления файла 4272e7a3_Спецификация на закупку Касперович.xlsx: [WinError 32] Процесс не может получить доступ к файлу, так как этот файл занят другим процессом: 'C:\\Users\\5\\Desktop\\production_system_v3_3\\app\\..\\uploads/orders/для Маши-26-02-002/design/4272e7a3_Спецификация на закупку Касперович.xlsx'
+[2026-02-18 08:21:09] ERROR in app:825 - Exception on /contracts/download/10 [GET]
+Traceback (most recent call last):
+  File "C:\Users\5\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask_login\utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\Desktop\production_system_v3_3\app\modules\contracts\routes.py", line 671, in download_contract
+    from docx import Document
+ModuleNotFoundError: No module named 'docx'
+[2026-02-18 08:22:54] ERROR in file_service:277 - Ошибка удаления файла 4272e7a3_Спецификация на закупку Касперович.xlsx: [WinError 32] Процесс не может получить доступ к файлу, так как этот файл занят другим процессом: 'C:\\Users\\5\\Desktop\\production_system_v3_3\\app\\..\\uploads/orders/для Маши-26-02-002/design/4272e7a3_Спецификация на закупку Касперович.xlsx'
+[2026-02-18 08:23:29] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
+[2026-02-18 08:23:45] ERROR in file_service:277 - Ошибка удаления файла 4272e7a3_Спецификация на закупку Касперович.xlsx: [WinError 32] Процесс не может получить доступ к файлу, так как этот файл занят другим процессом: 'C:\\Users\\5\\Desktop\\production_system_v3_3\\app\\..\\uploads/orders/для Маши-26-02-002/design/4272e7a3_Спецификация на закупку Касперович.xlsx'
+[2026-02-18 08:24:00] ERROR in app:825 - Exception on /admin/system/logs [GET]
+Traceback (most recent call last):
+  File "C:\Users\5\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask_login\utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\Desktop\production_system_v3_3\app\permissions.py", line 166, in decorated_function
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\Desktop\production_system_v3_3\app\admin.py", line 415, in system_logs
+    return render_template('admin/logs.html', logs=reversed(logs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\templating.py", line 152, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\templating.py", line 133, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\AppData\Local\Programs\Python\Python312\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+  File "C:\Users\5\AppData\Local\Programs\Python\Python312\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\5\Desktop\production_system_v3_3\app\templates\admin\logs.html", line 2, in top-level template code
+    {% extends "base.html" %}
+  File "C:\Users\5\Desktop\production_system_v3_3\app\templates\base.html", line 798, in top-level template code
+    {% block content %}{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\5\Desktop\production_system_v3_3\app\templates\admin\logs.html", line 289, in block 'content'
+    <i class="bi bi-list me-1"></i>Записей: {{ logs|length }}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: object of type 'list_reverseiterator' has no len()
+[2026-02-18 08:24:17] ERROR in file_service:277 - Ошибка удаления файла 4272e7a3_Спецификация на закупку Касперович.xlsx: [WinError 32] Процесс не может получить доступ к файлу, так как этот файл занят другим процессом: 'C:\\Users\\5\\Desktop\\production_system_v3_3\\app\\..\\uploads/orders/для Маши-26-02-002/design/4272e7a3_Спецификация на закупку Касперович.xlsx'
+[2026-02-18 08:27:33] ERROR in file_service:277 - Ошибка удаления файла 4272e7a3_Спецификация на закупку Касперович.xlsx: [WinError 32] Процесс не может получить доступ к файлу, так как этот файл занят другим процессом: 'C:\\Users\\5\\Desktop\\production_system_v3_3\\app\\..\\uploads/orders/для Маши-26-02-002/design/4272e7a3_Спецификация на закупку Касперович.xlsx'
+[2026-02-18 08:28:06] ERROR in __init__:375 - ❌ Ошибка инициализации настроек уведомлений: No module named 'app.services.notification_settings_service'
+[2026-02-18 08:30:22] ERROR in __init__:375 - ❌ Ошибка инициализации настроек уведомлений: No module named 'app.services.notification_settings_service'
+[2026-02-18 08:31:30] ERROR in notification_service:416 - Ошибка отправки push-уведомления: Table 'push_subscriptions' is already defined for this MetaData instance.  Specify 'extend_existing=True' to redefine options and columns on an existing Table object.
